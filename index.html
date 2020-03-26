@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="/resource/css/common.css">
+	<link rel="stylesheet" href="/resource/css/wadiz.css">
+	<link rel="stylesheet" href="/resource/css/fullpage.css">
+</head>
+<body>
+<div class="fb-menu-box">
+	<ul id="fp-menu">
+		<li data-menuanchor="anchor1">
+			<a href="#anchor1">First slide <span></span></a>
+		</li>
+		<li data-menuanchor="anchor2">
+			<a href="#anchor2">Second slide <span></span></a>
+		</li>
+		<li data-menuanchor="anchor3">
+			<a href="#anchor3">Third slide <span></span></a>
+		</li>
+	</ul>
+</div>
+
+<div id="fullpage">
+	<div class="section" id="section1">
+		<div class="desktop myContent">
+			<h1>PC 11 PC 11 PC 11</h1>
+			<p>Scroll down to see auto-height sections</p>
+		</div>
+		<div class="mob">
+			<h1>MOB 11 MOB 11 MOB 11</h1>
+		</div>
+	</div>
+	<div class="section" id="section2">
+		<div class="desktop myContent">
+			<h1>PC 22 PC 22 PC 22</h1>
+		</div>
+		<div class="mob">
+			<h1>MOB 22 MOB 22 MOB 22</h1>
+			<p>Scroll down to see auto-height sections</p>
+		</div>
+	</div>
+	<div class="section" id="section3">
+		<div class="desktop myContent">
+			<h1>PC 33 PC 33 PC 33</h1>
+		</div>
+		<div class="mob">
+			<h1>MOB 33 MOB 33 MOB 33</h1>
+			<p>Scroll down to see auto-height sections</p>
+		</div>
+	</div>
+	<div class="section mob-2" id="section4">
+		<div class="myContent">
+			<h1>Section 4</h1>
+		</div>
+	</div>
+	<div class="section" id="section5">
+		<div class="myContent">
+			<h1>Section 5</h1>
+		</div>
+	</div>
+	<div class="section fp-auto-height" id="section6">
+		<div class="myContent">
+			<h1>footer</h1>
+		</div>
+	</div>
+</div>
+
+
+<script src="/resource/js/libs/fullpage.min.js"></script>
+<script src="/resource/js/libs/jquery-1.12.4.min.js"></script>
+
+<script>
+    var myFullpage = new fullpage('#fullpage', {
+        verticalCentered: true,
+        anchors: ['anchor1', 'anchor2', 'anchor3'],
+        menu: '#fp-menu',
+        sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE'],
+        afterResponsive: function(isResponsive){
+            alert("Is responsive: " + isResponsive);
+        }
+    });
+
+    var aa = $('#fp-menu li');
+
+    $(window).scroll(function () {
+        console.log( 111 );
+        console.log( aa.is( '.active' ) );
+        if (!aa.is('.active')) {
+            $('.fb-menu-box').css('display','none');
+            console.log( 111 );
+        }
+    });
+
+    $(window).bind('mousewheel', function(e){
+        if (!aa.is('.active')) {
+            $('.fb-menu-box').css('display','none');
+        } else {
+            $('.fb-menu-box').css('display','block');
+		}
+    });
+
+
+
+</script>
+
+</body>
+</html>

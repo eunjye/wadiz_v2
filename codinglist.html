@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>프론트 ::: 코딩 리스트</title>
+	<link type="text/css" rel="stylesheet" href="resource/css/common.css"/>
+	<link type="text/css" rel="stylesheet" href="codinglist.css"/>
+	<script src="resource/js/libs/jquery-1.12.4.min.js"></script>
+	<script src="codinglist.js"></script>
+</head>
+<body id="guide">
+
+<header>
+	<div id="head">
+		<h1>IA (Imformation Architeture)</h1>
+		<h2 class="ribbon">
+			Wadiz
+			<i></i>
+			<i></i>
+			<i></i>
+			<i></i>
+		</h2>
+	</div>
+</header>
+
+<section id="contents">
+	<div class="state-wrap">
+		<div class="state-group">
+			<strong>진행 상태</strong>&nbsp;&nbsp;:&nbsp;
+			<span class="state"><span class="undecided">미</span></span> 미정(undecided),
+			<span class="state"><span class="delete">삭</span></span> 삭제(delete),
+			<span class="state"><span class="edit">중</span></span> 진행 및 수정 중(edit),
+			<span class="state"><span class="complete">완</span></span> 완료(complete)
+		</div>
+		<p class="total">
+			<span class="per">종합 진척률 : <span class="result"></span></span>
+		</p>
+	</div>
+	
+	<table border="0" class="working-list">
+		<colgroup>
+			<col style="width:5%;"/>
+			<col>
+			<col style="width:20%;"/>
+			<col style="width:10%;"/>
+			<col style="width:12%;"/>
+			<col style="width:20%;"/>
+			<col style="width:6%;"/>
+		</colgroup>
+		<thead>
+			<tr>
+				<th>No</th>
+				<th>Depth</th>
+				<th>File Directory (URL)</th>
+				<th>
+					<select name="select">
+						<option value="">담당자 전체</option>
+					</select>
+				</th>
+				<th>
+					<select name="select">
+						<option value="">작업일 선택</option>
+					</select>
+				</th>
+				<th>검수 및 비고</th>
+				<th>상태</th>
+			</tr>
+		</thead>
+		<tbody>
+
+			<tr class="linetitle">
+				<td>
+					<div class="sub-tit">메인 및 공통</div>
+				</td>
+			</tr>
+			<tr>
+				<td>메인 CBP</td>
+				<td><a href="index.html">index.html</a></td>
+				<td>김재희</td>
+				<td>2019-03-18</td>
+				<td>헤더영역 마크업 공통(메뉴명 미확정)</td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+
+			<tr class="linetitle">
+				<td>
+					<div class="sub-tit">CBP</div>
+				</td>
+			</tr>
+			<tr>
+				<td>CBP > CBP 소개 </td>
+				<td><a href="html/cbp_introducing.html">cbp_introducing.html</a></td>
+				<td>김재희</td>
+				<td>2019-04-05</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>CBP > CBP 소식 > 소식 목록</td>
+				<td><a href="html/cbp_report.html">cbp_report.html</a></td>
+				<td>김재희</td>
+				<td>2019-03-18</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>CBP > CBP 소식 > 소식 등록/수정</td>
+				<td><a href="html/cbp_write.html">cbp_write.html</a></td>
+				<td>김재희</td>
+				<td>2019-03-18</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>CBP > CBP 소식 > 소식 상세</td>
+				<td><a href="html/cbp_detail.html">cbp_detail.html</a></td>
+				<td>김재희</td>
+				<td>2019-03-18</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+
+			<tr class="linetitle">
+				<td>
+					<div class="sub-tit">CBP PJT</div>
+				</td>
+			</tr>
+			<tr>
+				<td>CBP PJT > CBP 지표관리 > 메인</td>
+				<td><a href="html/BPD_0001.html">BPD_0001.html</a></td>
+				<td>김재희</td>
+				<td>2019-04-05</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>CBP PJT > CBP 지표관리 > CBP 과제 리스트</td>
+				<td><a href="html/BPD_0002.html">BPD_0002.html</a></td>
+				<td>김재희</td>
+				<td>2019-04-09</td>
+				<td>
+					Quick Win 레이어 팝업 포함 <br>
+					(첫번째 퀵인 버튼 참고바람)
+				</td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>CBP PJT > CBP 지표관리 > CBP 과제 상세(A-type)</td>
+				<td><a href="html/BPD_0003_v1.html">BPD_0003_v1.html</a></td>
+				<td>김재희</td>
+				<td>2019-04-29</td>
+				<td>
+					로드맵, 이슈 확인, 상세보기 레이어 팝업<br> 및 <br>사이드 메뉴 포함 <br>
+					<b>Action Plan 레이어팝업</b> 참고
+				</td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>CBP PJT > CBP 지표관리 > CBP 과제 상세(A-type)</td>
+				<td><a href="html/BPD_0003_v2.html">BPD_0003_v2.html</a></td>
+				<td>김재희</td>
+				<td>2019-04-30</td>
+				<td>
+					Ver.2 로드맵 및 추진실적 변경사항
+				</td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>CBP PJT > CBP 지표관리 > CBP 과제 상세(B-type)</td>
+				<td><a href="html/BPD_0004.html">BPD_0004.html</a></td>
+				<td>김재희</td>
+				<td>2019-04-11</td>
+				<td>로드맵, 이슈 확인, 상세보기, <br>
+					 주요추진 실적(첫번째 링크참고) 레이어 팝업  <br>
+					사이드 메뉴 포함</td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>CBP PJT > 개혁재원  Quick Win > 3개년 목표(년 메인)</td>
+				<td><a href="html/TY_0001.html">TY_0001.html</a></td>
+				<td>김재희</td>
+				<td>2019-04-12</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>CBP PJT > 개혁재원  Quick Win > 3개년 목표 > BIO</td>
+				<td><a href="html/TY_0002_01.html">TY_0002_01.html</a></td>
+				<td>김재희</td>
+				<td>2019-04-17</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>CBP PJT > 개혁재원  Quick Win > 3개년 목표 > 식품</td>
+				<td><a href="html/TY_0002_02.html">TY_0002_02.html</a></td>
+				<td>김재희</td>
+				<td>2019-04-17</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>CBP PJT > 개혁재원  Quick Win > 3개년 목표 > 전사 STAFF</td>
+				<td><a href="html/TY_0002_03.html">TY_0002_03.html</a></td>
+				<td>김재희</td>
+				<td>2019-04-17</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>CBP PJT > 개혁재원  Quick Win > 3개년 목표 > 3개년 과제선택</td>
+				<td><a href="html/TY_0003.html">TY_0003.html</a></td>
+				<td>김재희</td>
+				<td>2019-04-18</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>CBP PJT > 개혁재원  Quick Win > 월별 현황(월별 메인)</td>
+				<td><a href="html/TM_0001.html">TM_0001.html</a></td>
+				<td>김재희</td>
+				<td>2019-04-12</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>CBP PJT > 개혁재원  Quick Win > 월별 현황 > BIO</td>
+				<td><a href="html/TM_0002_01.html">TM_0002_01.html</a></td>
+				<td>김재희</td>
+				<td>2019-04-17</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>CBP PJT > 개혁재원  Quick Win > 월별 현황 > 식품</td>
+				<td><a href="html/TM_0002_02.html">TM_0002_02.html</a></td>
+				<td>김재희</td>
+				<td>2019-04-17</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>CBP PJT > 개혁재원  Quick Win > 월별 현황 > 전사 STAFF</td>
+				<td><a href="html/TM_0002_03.html">TM_0002_03.html</a></td>
+				<td>김재희</td>
+				<td>2019-04-17</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>CBP PJT > 개혁재원  Quick Win > 월별 현황 > 월별 과제선택</td>
+				<td><a href="html/TM_0003.html">TM_0003.html</a></td>
+				<td>김재희</td>
+				<td>2019-04-18</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+
+
+
+			<tr class="linetitle">
+				<td>
+					<div class="sub-tit">Communication</div>
+				</td>
+			</tr>
+			<tr>
+				<td>Communication > Idea for CBP > 진행중인 아이디어 공모</td>
+				<td><a href="html/cbp_idea_ing.html">cbp_idea_ing.html</a></td>
+				<td>김재희</td>
+				<td>2019-03-25</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>Communication > Idea for CBP > 종료된 아이디어 공모</td>
+				<td><a href="html/cbp_idea_end.html">cbp_idea_end.html</a></td>
+				<td>김재희</td>
+				<td>2019-03-25</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>Communication > Idea for CBP > 아이디어 공모 등록/수정</td>
+				<td><a href="html/cbp_idea_write.html">cbp_idea_write.html</a></td>
+				<td>김재희</td>
+				<td>2019-03-25</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>Communication > Idea for CBP > 아이디어 공모 제안게시판 목록 화면</td>
+				<td><a href="html/cbp_idea_list.html">cbp_idea_list.html</a></td>
+				<td>김재희</td>
+				<td>2019-03-25</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>Communication > Idea for CBP > 아이디어 공모 제안게시판 목록 B-type 화면</td>
+				<td><a href="html/cbp_idea_list_v2.html">cbp_idea_list_v2.html</a></td>
+				<td>김재희</td>
+				<td>2019-05-07</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>Communication > Idea for CBP > 제안게시판 등록/수정</td>
+				<td><a href="html/cbp_idea_suggest_write.html">cbp_idea_suggest_write.html</a></td>
+				<td>김재희</td>
+				<td>2019-03-25</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>Communication > Idea for CBP > 제안게시판 상세</td>
+				<td><a href="html/cbp_idea_detail.html">cbp_idea_detail.html</a></td>
+				<td>김재희</td>
+				<td>2019-03-25</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>Communication > Talk Talk CBP > 진행 중인 콘텐츠</td>
+				<td><a href="html/cbp_talk_ing.html">cbp_talk_ing.html</a></td>
+				<td>김재희</td>
+				<td>2019-03-25</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>Communication > Talk Talk CBP > 종료된 콘텐츠</td>
+				<td><a href="html/cbp_talk_end.html">cbp_talk_end.html</a></td>
+				<td>김재희</td>
+				<td>2019-03-25</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>Communication > Talk Talk CBP > 콘텐츠 등록/수정</td>
+				<td><a href="html/cbp_talk_write.html">cbp_talk_write.html</a></td>
+				<td>김재희</td>
+				<td>2019-03-25</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>Communication > Talk Talk CBP > 참여게시판 목룍 화면</td>
+				<td><a href="html/cbp_talk_list.html">cbp_talk_list.html</a></td>
+				<td>김재희</td>
+				<td>2019-03-25</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>Communication > Talk Talk CBP > 참여게시판 콘텐츠 등록/수정</td>
+				<td><a href="html/cbp_talk_join_write.html">cbp_talk_join_write.html</a></td>
+				<td>김재희</td>
+				<td>2019-03-25</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>Communication > Idea for CBP > 참여게시판 상세</td>
+				<td><a href="html/cbp_talk_detail.html">cbp_talk_detail.html</a></td>
+				<td>김재희</td>
+				<td>2019-03-25</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+
+
+			<!--<tr class="del">-->
+			<!--
+			<tr class="linetitle">
+				<td>
+					<div class="sub-tit">관리자</div>
+				</td>
+			</tr>
+			<tr>
+				<td>가이드</td>
+				<td><a href="#;"></a></td>
+				<td>김재희</td>
+				<td></td>
+				<td></td>
+				<td><span class="state"><span class="undecided"></span></span></td>
+			</tr>
+			-->
+
+		</tbody>
+	
+	</table>
+</section>
+<hr />
+
+
+</body>
+</html>
