@@ -2,106 +2,501 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Document</title>
-	<link rel="stylesheet" href="/resource/css/common.css">
+	<title>Wadiz 채용사이트</title>
+	<link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,500,600,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700&display=swap&subset=korean" rel="stylesheet">
 	<link rel="stylesheet" href="/resource/css/wadiz.css">
-	<link rel="stylesheet" href="/resource/css/fullpage.css">
+	<link rel="stylesheet" media="(max-width: 768px)" href="/resource/css/wadiz.mob.css" />
 </head>
-<body>
+<body class="main">
+<!-- S : header -->
+<header id="header">
+	<div class="header-section">
+		<h1 class="recruit-log sp_wadiz"><span class="a11y">와디즈 채용</span></h1>
+		<div id="desktopMenu">
+			<div class="main-menu-wrap">
+				<ul class="main-menu-list">
+					<!-- [D] Depth-1 활성화 클래스 <li class="mm-1depth is-selected"> -->
+					<li class="mm-1depth"><a href="#;" class="link-1depth">와디즈 소개</a>
+						<div class="mm-sub-box">
+							<ul class="mm-sub-list">
+								<!-- [D] Depth-2 활성화 클래스 <li class="mm-2depth active">-->
+								<li class="mm-2depth"><a href="#;" class="link-2depth">About wadiz</a></li>
+								<li class="mm-2depth"><a href="#;" class="link-2depth">Why wadiz</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="mm-1depth"><a href="#;" class="link-1depth">와디즈 인사이드</a>
+						<div class="mm-sub-box">
+							<ul class="mm-sub-list">
+								<li class="mm-2depth"><a href="#;" class="link-2depth">와디즈인 인터뷰</a></li>
+								<li class="mm-2depth"><a href="#;" class="link-2depth">와디즈 라이프</a></li>
+								<li class="mm-2depth"><a href="#;" class="link-2depth">와디즈 미디어</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="mm-1depth"><a href="#;" class="link-1depth">지원하기</a>
+						<div class="mm-sub-box">
+							<ul class="mm-sub-list">
+								<li class="mm-2depth"><a href="#;" class="link-2depth">채용절차</a></li>
+								<li class="mm-2depth"><a href="#;" class="link-2depth">진행중인 공고</a></li>
+								<li class="mm-2depth"><a href="#;" class="link-2depth">문의하기</a></li>
+								<li class="mm-2depth"><a href="#;" class="link-2depth">인재풀 등록</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="mm-1depth"><a href="#;" class="link-1depth">나의 지원서</a>
+						<div class="mm-sub-box">
+							<ul class="mm-sub-list">
+								<li class="mm-2depth"><a href="#;" class="link-2depth">지원서 작성</a></li>
+								<li class="mm-2depth"><a href="#;" class="link-2depth">지원서 수정</a></li>
+								<li class="mm-2depth"><a href="#;" class="link-2depth">지원서 조회</a></li>
+								<li class="mm-2depth"><a href="#;" class="link-2depth">마이페이지</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="mobileMenu">
+			<div class="main-menu-wrap">
+				<ul class="main-menu-list">
+					<!-- [D] Depth-1 활성화 클래스 <li class="mm-1depth is-selected"> -->
+					<li class="mm-1depth"><a href="#;" class="link-1depth">와디즈 소개</a>
+						<div class="mm-sub-box">
+							<ul class="mm-sub-list">
+								<!-- [D] Depth-2 활성화 클래스 <li class="mm-2depth active">-->
+								<li class="mm-2depth"><a href="#;" class="link-2depth">About wadiz</a></li>
+								<li class="mm-2depth"><a href="#;" class="link-2depth">Why wadiz</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="mm-1depth"><a href="#;" class="link-1depth">와디즈 인사이드</a>
+						<div class="mm-sub-box">
+							<ul class="mm-sub-list">
+								<li class="mm-2depth"><a href="#;" class="link-2depth">와디즈인 인터뷰</a></li>
+								<li class="mm-2depth"><a href="#;" class="link-2depth">와디즈 라이프</a></li>
+								<li class="mm-2depth"><a href="#;" class="link-2depth">와디즈 미디어</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="mm-1depth"><a href="#;" class="link-1depth">지원하기</a>
+						<div class="mm-sub-box">
+							<ul class="mm-sub-list">
+								<li class="mm-2depth"><a href="#;" class="link-2depth">채용절차</a></li>
+								<li class="mm-2depth"><a href="#;" class="link-2depth">진행중인 공고</a></li>
+								<li class="mm-2depth"><a href="#;" class="link-2depth">문의하기</a></li>
+								<li class="mm-2depth"><a href="#;" class="link-2depth">인재풀 등록</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="mm-1depth"><a href="#;" class="link-1depth">나의 지원서</a>
+						<div class="mm-sub-box">
+							<ul class="mm-sub-list">
+								<li class="mm-2depth"><a href="#;" class="link-2depth">지원서 작성</a></li>
+								<li class="mm-2depth"><a href="#;" class="link-2depth">지원서 수정</a></li>
+								<li class="mm-2depth"><a href="#;" class="link-2depth">지원서 조회</a></li>
+								<li class="mm-2depth"><a href="#;" class="link-2depth">마이페이지</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<a href="#;" class="btn-hamburger"><span class="icon-burger"></span></a>
+	</div>
+	<p class="mob-copyright">© wadiz platform ALL RIGHTS RESERVED.</p>
+</header>
+<!-- E : header -->
+
+<!-- S : fullpage visual menu -->
 <div class="fb-menu-box">
 	<ul id="fp-menu">
-		<li data-menuanchor="anchor1">
-			<a href="#anchor1">First slide <span></span></a>
+		<li class="fp-menu-item" data-menuanchor="anchor1">
+			<a href="#anchor1">About 와디즈 <span></span></a>
 		</li>
-		<li data-menuanchor="anchor2">
-			<a href="#anchor2">Second slide <span></span></a>
+		<li class="fp-menu-item" data-menuanchor="anchor2">
+			<a href="#anchor2">와디즈인 인터뷰 <span></span></a>
 		</li>
-		<li data-menuanchor="anchor3">
-			<a href="#anchor3">Third slide <span></span></a>
+		<li class="fp-menu-item" data-menuanchor="anchor3">
+			<a href="#anchor3">와디즈 라이프 <span></span></a>
 		</li>
 	</ul>
 </div>
+<!-- E : fullpage visual menu -->
+<div class="icon-scroll sp_wadiz"><span class="a11y">마우스로 스크롤하기</span></div>
+<div class="next-view off sp_wadiz-a">진행 중인 채용 공고</div>
 
-<div id="fullpage">
-	<div class="section" id="section1">
-		<div class="desktop myContent">
-			<h1>PC 11 PC 11 PC 11</h1>
-			<p>Scroll down to see auto-height sections</p>
+<!-- S : fullpage(#wadiz-page)-->
+<div id="wadiz-page">
+
+	<section id="section1" class="section">
+		<div class="desktop visual-box">
+			<strong class="visual-title">우리는 옳은 일을 합니다</strong>
+			<p class="visual-desc">
+				기업이 올바름을 우선으로 하면 빠르게 성장할 수 없다는 생각이 팽배할 때, <br>
+				와디즈는 크라우드펀딩을 통해 옳은 일을 하면서도 발전할 수 있다는 것을 증명하고 있습니다.<br>
+				와디즈인들은 오늘도 세상을 한 뼘 더 건강하게 성장시키고 있습니다.
+			</p>
+			<a href="#;" class="btn-visual-more">About 와디즈 더보기</a>
 		</div>
-		<div class="mob">
-			<h1>MOB 11 MOB 11 MOB 11</h1>
+		<div class="mob visual-box">
+			<h1 class="visual-mob-title">
+				We make <br>
+				<span class="mob-title-ft"># <em>world</em> better</span>
+			</h1>
+			<strong class="visual-title">우리는 옳은 일을 합니다</strong>
+			<p class="visual-desc">
+				기업이 올바름을 우선으로 하면 <br>
+				빠르게 성장할 수 없다는 생각이 팽배할 때, <br>
+				와디즈는 크라우드펀딩을 통해 옳은 일을 하면서도<br>
+				발전할 수 있다는 것을 증명하고 있습니다.<br>
+				와디즈인들은 오늘도 세상을<br>
+				한 뼘 더 건강하게 성장시키고 있습니다.
+			</p>
 		</div>
-	</div>
-	<div class="section" id="section2">
-		<div class="desktop myContent">
-			<h1>PC 22 PC 22 PC 22</h1>
+	</section>
+	<section id="section2" class="section">
+		<div class="desktop visual-box">
+			<strong class="visual-title">최고의 동료들과 성장할 수 있습니다</strong>
+			<p class="visual-desc">
+				아무리 일이 좋아도, 직무가 적성에 잘 맞아도 <br>
+				함께 일하는 사람과의 손발이 맞지 않으면 무용지물입니다.<br>
+				변화와 도전을 즐겁게 헤쳐 나가는 와디즈인들은 우리의 성장동력이자 최고의 복지입니다.
+			</p>
+			<a href="#;" class="btn-visual-more">와디즈 인터뷰 더보기</a>
 		</div>
-		<div class="mob">
-			<h1>MOB 22 MOB 22 MOB 22</h1>
-			<p>Scroll down to see auto-height sections</p>
+		<div class="mob visual-box">
+			<h2 class="visual-mob-title">
+				We make <br>
+				<span class="mob-title-ft"># <em>each other</em> better</span>
+			</h2>
+			<strong class="visual-title">최고의 동료들과 성장할 수 있습니다</strong>
+			<p class="visual-desc">
+				아무리 일이 좋아도, 직무가 적성에 잘 맞아도<br>
+				함께 일하는 사람과의 손발이 맞지 않으면 무용지물입니다.<br>
+				변화와 도전을 즐겁게 헤쳐 나가는 와디즈인들은<br>
+				우리의 성장동력이자 최고의 복지입니다.
+			</p>
 		</div>
-	</div>
-	<div class="section" id="section3">
-		<div class="desktop myContent">
-			<h1>PC 33 PC 33 PC 33</h1>
+	</section>
+	<section id="section3" class="section">
+		<div class="desktop visual-box">
+			<strong class="visual-title"><span class="visual-title-sup">‘모두’가 아닌 ‘누군가’에게</span>최고의 회사이길 꿈꿉니다</strong>
+			<p class="visual-desc">
+				‘올바른 생각이 신뢰를 바탕으로 성장하는 세상을 만들 수 있다’는 믿음으로 <br>
+				변화와 도전을 즐길 준비가 된 당신에게<br>
+				우리는 최고의 회사가 될 것이라 확신합니다.
+			</p>
+			<a href="#;" class="btn-visual-more">와디즈 라이프 더보기</a>
 		</div>
-		<div class="mob">
-			<h1>MOB 33 MOB 33 MOB 33</h1>
-			<p>Scroll down to see auto-height sections</p>
+		<div class="mob visual-box">
+			<h2 class="visual-mob-title">
+				We make <br>
+				<span class="mob-title-ft"># <em>ourselves</em> better</span>
+			</h2>
+			<strong class="visual-title"><span class="visual-title-sup">‘모두’가 아닌 ‘누군가’에게</span>최고의 회사이길 꿈꿉니다</strong>
+			<p class="visual-desc">
+				‘올바른 생각이 신뢰를 바탕으로<br>
+				성장하는 세상을 만들 수 있다’는 믿음으로<br>
+				변화와 도전을 즐길 준비가 된 당신에게<br>
+				우리는 최고의 회사가 될 것이라 확신합니다.
+			</p>
 		</div>
-	</div>
-	<div class="section mob-2" id="section4">
-		<div class="myContent">
-			<h1>Section 4</h1>
+	</section>
+	<section id="section4" class="section">
+		<div class="visual-box">
+			<h2 class="visual-title-type2">
+				We make <br>
+				<span class="title-ft"># <em></em> better</span>
+			</h2>
+			<p class="visual-desc">
+				와디즈인은 we make ____ better의 빈칸에 자신만의 better message를 갖고 있습니다. <br>
+				이 빈칸에 every morning, your start, possibility, culture를 새겨 넣고 <br	>
+				매일 아침을, 당신의 시작을, 가능성을, 문화를 만들기 위해 오늘도 도전하고 있습니다.
+			</p>
+			<p class="visual-desc2 ">더 나은 세상을 만드는 와디즈의 여정에 지금 동참하세요!</p>
+			<span class="icon-visual01 sp_wadiz"></span>
+			<div class="guide-arrow sp_wadiz-a">진행 중인 채용 공고</div>
 		</div>
-	</div>
-	<div class="section" id="section5">
-		<div class="myContent">
-			<h1>Section 5</h1>
+	</section>
+
+	<section id="section5" class="section">
+		<div class="ann-section">
+			<div class="ann-inner">
+				<h2 class="main-subTitle">진행중인 공고</h2>
+				<div class="desktop-select">
+					<a href="#;" class="fake-menu active">#전체</a>
+					<a href="#;" class="fake-menu">#기술</a>
+					<a href="#;" class="fake-menu">#프로덕트</a>
+					<a href="#;" class="fake-menu">#사업</a>
+					<a href="#;" class="fake-menu">#스텝</a>
+					<a href="#;" class="fake-menu">#마케팅/홍보</a>
+					<a href="#;" class="fake-menu">#브랜딩/디자인</a>
+					<a href="#;" class="fake-menu">#인재풀</a>
+				</div>
+				<div class="select-box full">
+					<select class="select full" name="" id="">
+						<option value="">전체보기</option>
+						<option value="">기술</option>
+						<option value="">프로덕트</option>
+						<option value="">사업</option>
+						<option value="">마케팅/홍보</option>
+						<option value="">브랜딩/디자인</option>
+						<option value="">인재풀</option>
+					</select>
+				</div>
+
+				<div class="bbs-type">
+					<ul class="bbs-list">
+						<li class="bbs-item">
+							<div class="bbs-col col-lg">
+								<div class="mob-sub-title"><em class="m-flag">[신입]</em> 홍보/마케팅/브랜딩</div>
+								<a href="#;" class="bbs-link">
+									<span class="col-sub-title">[브랜딩/디자인]</span>
+									<span class="col-title">영상 콘텐츠 PD(공고제목)</span>
+								</a>
+							</div>
+							<div class="bbs-col col-s">
+								<span class="col-flag">신입</span>
+							</div>
+							<div class="bbs-col col-s last">
+								<span class="col-span date">2020.03.16~2020.04.05</span>
+							</div>
+						</li>
+						<li class="bbs-item">
+							<div class="bbs-col col-lg">
+								<div class="mob-sub-title"><em class="m-flag">[신입]</em> 홍보/마케팅/브랜딩</div>
+								<a href="#;" class="bbs-link">
+									<span class="col-sub-title">[브랜딩/디자인]</span>
+									<span class="col-title">영상 콘텐츠 PD(공고제목)</span>
+								</a>
+							</div>
+							<div class="bbs-col col-s">
+								<span class="col-flag">신입</span>
+							</div>
+							<div class="bbs-col col-s last">
+								<span class="col-span date">2020.03.16~2020.04.05</span>
+							</div>
+						</li>
+						<li class="bbs-item">
+							<div class="bbs-col col-lg">
+								<div class="mob-sub-title"><em class="m-flag">[신입]</em> 홍보/마케팅/브랜딩</div>
+								<a href="#;" class="bbs-link">
+									<span class="col-sub-title">[브랜딩/디자인]</span>
+									<span class="col-title">영상 콘텐츠 PD(공고제목)</span>
+								</a>
+							</div>
+							<div class="bbs-col col-s">
+								<span class="col-flag">신입</span>
+							</div>
+							<div class="bbs-col col-s last">
+								<span class="col-span date">2020.03.16~2020.04.05</span>
+							</div>
+						</li>
+						<li class="bbs-item">
+							<div class="bbs-col col-lg">
+								<div class="mob-sub-title"><em class="m-flag">[신입]</em> 홍보/마케팅/브랜딩</div>
+								<a href="#;" class="bbs-link">
+									<span class="col-sub-title">[브랜딩/디자인]</span>
+									<span class="col-title">영상 콘텐츠 PD(공고제목)</span>
+								</a>
+							</div>
+							<div class="bbs-col col-s">
+								<span class="col-flag">신입</span>
+							</div>
+							<div class="bbs-col col-s last">
+								<span class="col-span date">2020.03.16~2020.04.05</span>
+							</div>
+						</li>
+						<li class="bbs-item">
+							<div class="bbs-col col-lg">
+								<div class="mob-sub-title"><em class="m-flag">[신입]</em> 홍보/마케팅/브랜딩</div>
+								<a href="#;" class="bbs-link">
+									<span class="col-sub-title">[브랜딩/디자인]</span>
+									<span class="col-title">영상 콘텐츠 PD(공고제목)</span>
+								</a>
+							</div>
+							<div class="bbs-col col-s">
+								<span class="col-flag">신입</span>
+							</div>
+							<div class="bbs-col col-s last">
+								<span class="col-span date">2020.03.16~2020.04.05</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="align-box main-space">
+					<a href="#;" class="btn-type">진행중인 채용공고 더보기</a>
+				</div>
+			</div>
 		</div>
-	</div>
-	<div class="section fp-auto-height" id="section6">
-		<div class="myContent">
-			<h1>footer</h1>
-		</div>
-	</div>
+	</section>
+	<section id="section6" class="section fp-auto-height">
+		<footer id="footer">
+			<a href="https://www.wadiz.kr/web/main" target="_blank" class="footer-logo sp_wadiz"><span class="a11y">와디즈 홈으로 바로가기</span></a>
+			<ul class="guide-privacy">
+				<li class="gp-item"><button type="button" data-layer="private-layer" class="gp-link">개인정보취급방침</button></li>
+				<li class="gp-item"><button type="button" data-layer="email-layer" class="gp-link">이메일무단수집거부</button></li>
+			</ul>
+			<ul class="sns-list">
+				<li class="sns-item face"><a href="https://www.facebook.com/wadizcareer/" class="sns-link sp_wadiz" target="_blank"><span class="a11y">페이스북 바로가기</span></a></li>
+				<li class="sns-item insta"><a href="https://www.instagram.com/wadiz_reward/" class="sns-link sp_wadiz" target="_blank"><span class="a11y">유투브 바로가기</span></a></li>
+				<li class="sns-item ut"><a href="https://www.youtube.com/channel/UC8AexhOPSVzUPM7XkMyYuRA/wadiz_reward/" class="sns-link sp_wadiz" target="_blank"><span class="a11y">인스타그램 바로가기</span></a></li>
+			</ul>
+			<address class="address">
+				<span class="ceo">대표이사 : 최동철</span>사업자 등록 번호 : 220-88-37661 <br>
+				주소 : 경기도 성남시 분당구 판교로 242 (삼평동) 판교디지털센터 A동 4층 402호
+			</address>
+			<p class="copyright">© wadiz platform ALL RIGHTS RESERVED.</p>
+		</footer>
+	</section>
 </div>
+<!-- E : fullpage(#wadiz-page)-->
+<button type="button" class="btn-move-top"><span class="a11y">상단으로 이동하기</span></button>
 
 
-<script src="/resource/js/libs/fullpage.min.js"></script>
 <script src="/resource/js/libs/jquery-1.12.4.min.js"></script>
+<script src="/resource/js/libs/fullpage.min.js"></script>
+<script src="/resource/js/wadiz.js"></script>
 
 <script>
-    var myFullpage = new fullpage('#fullpage', {
-        verticalCentered: true,
+    /*var wadizFullpage = new fullpage('#wadiz-page', {
+        verticalCentered: false,
         anchors: ['anchor1', 'anchor2', 'anchor3'],
         menu: '#fp-menu',
-        sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE'],
-        afterResponsive: function(isResponsive){
-            alert("Is responsive: " + isResponsive);
-        }
     });
 
-    var aa = $('#fp-menu li');
+    var fpMenuEl = $('#fp-menu .fp-menu-item');
+    var fpMenuLastEl = $('#fp-menu .fp-menu-item:last-child');
+    var fpMenuSecondEl = $('#fp-menu .fp-menu-item:nth-child(2)');
+    var iconScrollEl = $('.icon-scroll');
+    var fpMenuBox = $('.fb-menu-box');
+    var nextViewEl = $('.next-view');
 
-    $(window).scroll(function () {
-        console.log( 111 );
-        console.log( aa.is( '.active' ) );
-        if (!aa.is('.active')) {
-            $('.fb-menu-box').css('display','none');
-            console.log( 111 );
-        }
-    });
-
-    $(window).bind('mousewheel', function(e){
-        if (!aa.is('.active')) {
-            $('.fb-menu-box').css('display','none');
+    $(window).on('mousewheel', function(e){
+        if (!fpMenuEl.is('.active')) {
+            fpMenuBox.addClass( 'off' );
+            iconScrollEl.addClass( 'off' );
         } else {
-            $('.fb-menu-box').css('display','block');
+            fpMenuBox.removeClass( 'off' );
+            iconScrollEl.removeClass( 'off' );
 		}
-    });
+        if (fpMenuLastEl.is('.active')) {
+            nextViewEl.removeClass( 'off' );
+		} else {
+            nextViewEl.addClass( 'off' );
+		}
+    });*/
+
+    /*function mainUi() {
+        var main = $('.main');
+        if (!!main.length) {
+            var $btnTop = $('.btn-move-top');
+            var section5 = $('#section5');
+            var section6 = $('#section6');
+            $(window).on('mousewheel touchmove', function () {
+                var fpSection = $('.fp-section:first-child');
+
+                if (fpSection.is('.active')) {
+                    $btnTop.fadeOut( 200 );
+                } else {
+                    $btnTop.fadeIn( 200 );
+                    $btnTop.on('click', function () {
+                        fullpage_api.moveTo('anchor1', 2);
+                        $btnTop.fadeOut( 200 );
+                    })
+                }
+                if (section5.is('.active') || section6.is('.active')) {
+                    $( '#header' ).addClass( 'isBg' );
+                } else {
+                    $( '#header' ).removeClass( 'isBg' );
+                }
+
+            });
+        }
+    }
+    mainUi();*/
+
+
+    /*var section4 = $( '#section4' ).clone();
+    var winEl = $( window );
+    var htmlEl = $( 'html' );
+
+    winEl.on('resize load', function(evt) {
+        var breakPoint = $( '#wadiz-page' ).width() < 768;
+        if (evt.type === 'resize') {
+			if (breakPoint) {
+				$( '#section4' ).remove();
+			} else {
+				section4.insertAfter($( '#section3' ));
+			}
+		}
+        if (evt.type === 'load') {
+            if (breakPoint) {
+                $( '#section4' ).remove();
+            }
+        }
+    });*/
+
+
+
+
+    /*var headerEl = $('#header');
+    function desktopMenu() {
+        $('#desktopMenu .main-menu-wrap').on('mouseenter mouseleave', function (e) {
+            if (e.type === 'mouseenter') {
+                headerEl.css({
+                    height: 218
+                });
+            } else if (e.type === 'mouseleave') {
+                headerEl.css({
+                    height: 132
+                });
+            }
+        });
+	}
+    desktopMenu();
+
+    function mobileMenu() {
+        $(".btn-hamburger").on('click', function(e){
+            e.preventDefault();
+            if ( !$(this).is('.open')) {
+                $(this).addClass('open');
+                headerEl.addClass( 'opened' );
+            } else {
+                $(this).removeClass('open');
+                headerEl.removeClass( 'opened' );
+            }
+
+        });
+        var mobileMenu = $( '#mobileMenu' );
+        mobileMenu.on('click', '.link-1depth', function (e) {
+            e.preventDefault();
+            var parentEl =  $( this ).parent();
+            var selectStr = 'is-selected';
+            var mmSubBoxStr = '.mm-sub-box';
+            mobileMenu.find( mmSubBoxStr ).slideUp();
+
+            if ( !$( this ).parent().is( '.is-selected' )) {
+                parentEl.addClass(selectStr).find( mmSubBoxStr ).slideDown();
+                parentEl.siblings().removeClass(selectStr);
+            } else {
+                parentEl.addClass(selectStr).find( mmSubBoxStr ).slideUp();
+                parentEl.removeClass(selectStr);
+            }
+
+        });
+	}
+    mobileMenu();*/
+
+
+
+
+
+
 
 
 
