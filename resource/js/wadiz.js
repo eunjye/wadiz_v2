@@ -225,21 +225,23 @@ $(function () {
 	WD.callLayer();
 
 	var owlSlide = $('#latest-list');
-	var owl = owlSlide.owlCarousel({
-		loop:false,
-		nav:true,
-		slideBy :3,
-		responsive:{
-			0:{
-				items:2,
-				margin:15,
+	if (!!owlSlide.length) {
+		var owl = owlSlide.owlCarousel({
+			loop:false,
+			nav:true,
+			slideBy :3,
+			responsive:{
+				0:{
+					items:2,
+					margin:15,
+				},
+				769:{
+					items:3,
+					margin:35,
+				}
 			},
-			769:{
-				items:3,
-				margin:35,
-			}
-		},
-		// onChange: callback,
-	});
+			// onChange: callback,
+		});
+	}
 });
 
