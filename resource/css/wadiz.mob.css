@@ -87,7 +87,7 @@
 
 
 .ann-section {padding:0 20px;}
-.ann-section .ann-inner {width:100%}
+.ann-section .ann-inner {width:100%;padding-top:40px;}
 .main-subTitle {font-size:20px;color:#00cbcb;margin-bottom:42px;}
 .main-subTitle::after {content:"";position:absolute;bottom:-16px;left:50%;transform:translate(-50%);background-color:#00cbcb;width:22px;height:1px;}
 .desktop-select {display:none;}
