@@ -104,8 +104,8 @@ select option { font-size: 13px;}
 .mb-xl {margin-bottom: 40px !important;}
 .mb-2xl {margin-bottom: 50px !important;}
 .pt70 {padding-top: 70px !important;}
-.primary-color {color:#00b2b2;}
-.point-col01 {color: #99d7e4 !important;}
+.primary-color {color:#00cccc;}
+.point-col01 {color: #00cccc !important;}
 .space-char01 { display: inline-block; margin: 0 12px;}
 
 .fl {float: left;}
@@ -126,7 +126,7 @@ select option { font-size: 13px;}
 
 /* Common Component Style */
 [class*="btn-"] { display: inline-block;}
-.btn-type {height:55px;font-size:21px;font-weight:500;color:#fff;padding:0 30px;line-height:52px;background-color:#00b2b2;border-radius:10px}
+.btn-type {height:55px;font-size:21px;font-weight:500;color:#fff;padding:0 30px;line-height:52px;background-color:#00cccc;border-radius:10px}
 .btn-type ~ .btn-type {margin-left:10px;}
 .btn-move-top {display:none;position: fixed;z-index:250;left: 50%;margin-left:41%;bottom:80px;width: 86px;height: 86px; background-image:url('/pub/resource/images/sp_wadiz.png');background-repeat:no-repeat;background-size:500px auto;background-position:0 -280px;}
 .btn-search {position:absolute;top:2px;right:15px;width:50px;height:50px;background-position:-240px -280px;}
@@ -190,11 +190,11 @@ select option { font-size: 13px;}
 /* paging style */
 .paging {position:relative; margin-top: 45px;text-align:center;font-size: 0;}
 .paging a {position:relative;display:inline-block;width:30px;height:30px;vertical-align: middle;}
-.paging a:hover { color: #00b2b2;}
+.paging a:hover { color: #00cccc;}
 .paging .page-number {margin-right:10px; font-weight: 400;width:30px;height:30px;text-align:center;line-height:26px;font-size:16px;color: #000;}
-.paging .page-number.current {color: #00b2b2;}
+.paging .page-number.current {color: #00cccc;}
 .paging .page-number:hover::after,
-.paging .page-number.current::after {content:"";position:absolute;bottom:2px;left:50%;transform:translate(-50%);width:10px;height:1px;background-color:#00b2b2;}
+.paging .page-number.current::after {content:"";position:absolute;bottom:2px;left:50%;transform:translate(-50%);width:10px;height:1px;background-color:#00cccc;}
 .paging .prev {margin-right:25px;background-position: -300px -280px;}
 .paging .next {margin-left:15px;background-position: -350px -280px;}
 .mob-paging {display:none}
