@@ -5,10 +5,9 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Wadiz 채용사이트</title>
-	<link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,500,600,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700&display=swap&subset=korean" rel="stylesheet">
-	<link rel="stylesheet" href="/pub/resource/css/wadiz.css">
-	<link rel="stylesheet" media="(max-width: 768px)" href="/pub/resource/css/wadiz.mob.css" />
+	<link rel="stylesheet" href="/res/pub/front/resource/css/wadiz.css">
+	<link rel="stylesheet" media="(max-width: 768px)" href="/res/pub/front/resource/css/wadiz.mob.css" />
 </head>
 <body class="main">
 <!-- S : header -->
@@ -358,149 +357,9 @@
 <button type="button" class="btn-move-top"><span class="a11y">상단으로 이동하기</span></button>
 
 
-<script src="/pub/resource/js/libs/jquery-1.12.4.min.js"></script>
-<script src="/pub/resource/js/libs/fullpage.min.js"></script>
-<script src="/pub/resource/js/wadiz.js"></script>
-
-<script>
-    /*var wadizFullpage = new fullpage('#wadiz-page', {
-        verticalCentered: false,
-        anchors: ['anchor1', 'anchor2', 'anchor3'],
-        menu: '#fp-menu',
-    });
-
-    var fpMenuEl = $('#fp-menu .fp-menu-item');
-    var fpMenuLastEl = $('#fp-menu .fp-menu-item:last-child');
-    var fpMenuSecondEl = $('#fp-menu .fp-menu-item:nth-child(2)');
-    var iconScrollEl = $('.icon-scroll');
-    var fpMenuBox = $('.fb-menu-box');
-    var nextViewEl = $('.next-view');
-
-    $(window).on('mousewheel', function(e){
-        if (!fpMenuEl.is('.active')) {
-            fpMenuBox.addClass( 'off' );
-            iconScrollEl.addClass( 'off' );
-        } else {
-            fpMenuBox.removeClass( 'off' );
-            iconScrollEl.removeClass( 'off' );
-		}
-        if (fpMenuLastEl.is('.active')) {
-            nextViewEl.removeClass( 'off' );
-		} else {
-            nextViewEl.addClass( 'off' );
-		}
-    });*/
-
-    /*function mainUi() {
-        var main = $('.main');
-        if (!!main.length) {
-            var $btnTop = $('.btn-move-top');
-            var section5 = $('#section5');
-            var section6 = $('#section6');
-            $(window).on('mousewheel touchmove', function () {
-                var fpSection = $('.fp-section:first-child');
-
-                if (fpSection.is('.active')) {
-                    $btnTop.fadeOut( 200 );
-                } else {
-                    $btnTop.fadeIn( 200 );
-                    $btnTop.on('click', function () {
-                        fullpage_api.moveTo('anchor1', 2);
-                        $btnTop.fadeOut( 200 );
-                    })
-                }
-                if (section5.is('.active') || section6.is('.active')) {
-                    $( '#header' ).addClass( 'isBg' );
-                } else {
-                    $( '#header' ).removeClass( 'isBg' );
-                }
-
-            });
-        }
-    }
-    mainUi();*/
-
-
-    /*var section4 = $( '#section4' ).clone();
-    var winEl = $( window );
-    var htmlEl = $( 'html' );
-
-    winEl.on('resize load', function(evt) {
-        var breakPoint = $( '#wadiz-page' ).width() < 768;
-        if (evt.type === 'resize') {
-			if (breakPoint) {
-				$( '#section4' ).remove();
-			} else {
-				section4.insertAfter($( '#section3' ));
-			}
-		}
-        if (evt.type === 'load') {
-            if (breakPoint) {
-                $( '#section4' ).remove();
-            }
-        }
-    });*/
-
-
-
-
-    /*var headerEl = $('#header');
-    function desktopMenu() {
-        $('#desktopMenu .main-menu-wrap').on('mouseenter mouseleave', function (e) {
-            if (e.type === 'mouseenter') {
-                headerEl.css({
-                    height: 218
-                });
-            } else if (e.type === 'mouseleave') {
-                headerEl.css({
-                    height: 132
-                });
-            }
-        });
-	}
-    desktopMenu();
-
-    function mobileMenu() {
-        $(".btn-hamburger").on('click', function(e){
-            e.preventDefault();
-            if ( !$(this).is('.open')) {
-                $(this).addClass('open');
-                headerEl.addClass( 'opened' );
-            } else {
-                $(this).removeClass('open');
-                headerEl.removeClass( 'opened' );
-            }
-
-        });
-        var mobileMenu = $( '#mobileMenu' );
-        mobileMenu.on('click', '.link-1depth', function (e) {
-            e.preventDefault();
-            var parentEl =  $( this ).parent();
-            var selectStr = 'is-selected';
-            var mmSubBoxStr = '.mm-sub-box';
-            mobileMenu.find( mmSubBoxStr ).slideUp();
-
-            if ( !$( this ).parent().is( '.is-selected' )) {
-                parentEl.addClass(selectStr).find( mmSubBoxStr ).slideDown();
-                parentEl.siblings().removeClass(selectStr);
-            } else {
-                parentEl.addClass(selectStr).find( mmSubBoxStr ).slideUp();
-                parentEl.removeClass(selectStr);
-            }
-
-        });
-	}
-    mobileMenu();*/
-
-
-
-
-
-
-
-
-
-</script>
+<script src="/res/pub/front/resource/js/libs/jquery-1.12.4.min.js"></script>
+<script src="/res/pub/front/resource/js/libs/fullpage.min.js"></script>
+<script src="/res/pub/front/resource/js/wadiz.js"></script>
 
 </body>
 </html>

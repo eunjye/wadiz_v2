@@ -52,9 +52,9 @@
 #header.opened .main-menu-wrap,
 #header.opened .mob-copyright {display:block}
 
-#section1 {background-image:url('/pub/resource/images/visual_01@mob.jpg');}
-#section2 {background-image:url('/pub/resource/images/visual_02@mob.jpg');}
-#section3 {background-image:url('/pub/resource/images/visual_03@mob.jpg');}
+#section1 {background-image:url('/res/pub/front/resource/images/visual_01@mob.jpg');}
+#section2 {background-image:url('/res/pub/front/resource/images/visual_02@mob.jpg');}
+#section3 {background-image:url('/res/pub/front/resource/images/visual_03@mob.jpg');}
 .visual-box .visual-mob-title {font-size:32px;margin-bottom:30px;}
 .visual-box .visual-mob-title .mob-title-ft {display:inline-block;margin-top:10px;font-weight:100;}
 .visual-box .visual-mob-title em {text-decoration:underline}
@@ -107,13 +107,13 @@
 
 .wadiz-inner {padding:0 15px;}
 .sub-content {padding:35px 0;}
-.sub-visual-section.about {height:240px;background-image:url('/pub/resource/images/sub_visual_01@mob.jpg');}
-.sub-visual-section.about2 {height:510px;background-image:url('/pub/resource/images/sub_visual_01_01@mob.jpg');}
-.sub-visual-section.about3 {height:305px;background-image:url('/pub/resource/images/sub_visual_01_02@mob.jpg');}
-.sub-visual-section.why {height:240px;background-image:url('/pub/resource/images/sub_visual_02@mob.jpg');}
-.sub-visual-section.why2 {height:460px;background-image:url('/pub/resource/images/sub_visual_02_01@mob.jpg');}
-.sub-visual-section.inside {height:240px;background-image:url('/pub/resource/images/sub_visual_03@mob.jpg');}
-.sub-visual-section.recruit {height:240px;background-image:url('/pub/resource/images/sub_visual_04@mob.jpg');}
+.sub-visual-section.about {height:240px;background-image:url('/res/pub/front/resource/images/sub_visual_01@mob.jpg');}
+.sub-visual-section.about2 {height:510px;background-image:url('/res/pub/front/resource/images/sub_visual_01_01@mob.jpg');}
+.sub-visual-section.about3 {height:305px;background-image:url('/res/pub/front/resource/images/sub_visual_01_02@mob.jpg');}
+.sub-visual-section.why {height:240px;background-image:url('/res/pub/front/resource/images/sub_visual_02@mob.jpg');}
+.sub-visual-section.why2 {height:460px;background-image:url('/res/pub/front/resource/images/sub_visual_02_01@mob.jpg');}
+.sub-visual-section.inside {height:240px;background-image:url('/res/pub/front/resource/images/sub_visual_03@mob.jpg');}
+.sub-visual-section.recruit {height:240px;background-image:url('/res/pub/front/resource/images/sub_visual_04@mob.jpg');}
 .page-title {font-size:35px;padding-top:40px;}
 .section-title {margin-bottom:25px;font-size:22px;font-weight:400;line-height:30px;}
 .section-desc {font-size:15px;line-height:24px;}
