@@ -635,13 +635,28 @@ input[type="search"].ipt-sch {width:100%;padding-right:65px;}
 .icon-speaker {display:inline-block;width:11px;height:11px;margin-right:3px;background-position:-200px -170px;background-size:250px auto;}
 
 .layer_section {opacity:0;visibility:hidden;transition:.2s;position:fixed;left:0;top:0;width:100%;height:100%;background-color: rgba(0, 0, 0, 0.5);z-index:9001}
-.layer_section .layer_section-container {transition:.4s;position:absolute;left:50%;top:65%;width:60%;transform:translate(-50%, -50%);background-color:#fff;}
+.layer_section .layer_section-container {overflow:hidden;transition:.4s;position:absolute;left:50%;top:65%;width:60%;transform:translate(-50%, -50%);background-color:#fff;}
 .layer_section.showing {visibility:visible;opacity:1;}
 .layer_section.showing .layer_section-container {top:50%;opacity:1;}
 .layer_section-container .layer-header {margin-bottom:40px;padding:36px 34px;background-color:#1d2129;line-height:1.2;}
 .layer_section-container .layer-header .header-title {font-size: 24px;color: #00cccc;margin:0;}
 .layer_section-container .btn_layer-close {position:absolute;top:38px;right:38px;width:26px;height:26px;background-position:-440px -340px;}
 .layer_section-container .layer-content {overflow-y:auto;max-height:calc(100vh - 100px); padding:0 36px 33px;}
+#private-layer.layer_section.showing .layer_section-container {top:30px;bottom:30px;transform:translate(-50%, 0)}
+#private-layer .layer_section-container .layer-content {overflow-y:auto;max-height:calc(100vh - 180px); padding:0 36px 33px;}
+.agree-box {}
+.agree-box * {line-height:1.55;font-size:12px;font-weight:300;color:#000;}
+.agree-box .agree-txt,
+.agree-box .agree-list {margin-bottom:18px;}
+.agree-box .agree-txt.mb0 {margin-bottom:0;}
+.agree-box .agree-txt strong {font-weight:500;}
+.agree-box .agree-title {font-weight:500;margin-bottom:20px;}
+.agree-box .agree-sub-title {font-weight:500;}
+.agree-box .indent {padding-left:20px;}
+.agree-box .indent > li {text-indent:-9px;padding-left:9px;}
+.agree-box .indent > li::before {content:"";display:inline-block;width:4px;height:4px;background-color:#333;vertical-align:middle;margin-right:5px;border-radius:2px;}
+.agree-box .indent > li ul {padding-left:10px;}
+.agree-box .indent a {color:#00cccc;}
 
 /* spinor */
 .spinor-area {position:fixed;top:0;left:0;bottom:0;right:0;z-index:999;background-color:rgba(0,0,0,.7)}
