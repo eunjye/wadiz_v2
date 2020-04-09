@@ -533,8 +533,8 @@ html.fp-enabled,
 .welfare-list2 .welfare-title {display:block;width:150px;height:220px;margin-right:40px;padding:22px 0 0 64px;font-size:32px;font-weight:300;border:1px solid #d9d9d9;border-radius:20px 0 0 0}
 .welfare-list2 .welfare-data {font-size:32px;flex:1 1 auto}
 .welfare-list2 .welfare-data .welfare-subtitle {font-size:24px;font-weight:500;line-height:1.3;margin-bottom:25px;padding-top:8px;}
-.welfare-list2 .welfare-data .welfare-desc {font-size:14px;font-weight:100;color:#555;margin-top:10px;}
-.welfare-list2 .welfare-data .welfare-desc::before {display:inline-block;content:"";width:2px;height:2px;margin-right:8px;background-color:#666;vertical-align:middle;}
+.welfare-list2 .welfare-data .welfare-desc {position:relative;font-size:14px;font-weight:100;color:#555;margin-top:5px;padding-left:10px;line-height:20px}
+.welfare-list2 .welfare-data .welfare-desc::before {position:absolute;top:8px;left:0;display:inline-block;content:"";width:2px;height:2px;margin-right:8px;background-color:#666;}
 @media (max-width: 1180px) {
 	.welfare-list2 .welfare-item2 {width:100%;justify-content:center}
 	.welfare-list2 .welfare-data {flex-grow:0;width:400px;}
@@ -643,12 +643,11 @@ input[type="search"].ipt-sch {width:100%;padding-right:65px;}
 .layer_section-container .btn_layer-close {position:absolute;top:38px;right:38px;width:26px;height:26px;background-position:-440px -340px;}
 .layer_section-container .layer-content {overflow-y:auto;max-height:calc(100vh - 100px); padding:0 36px 33px;}
 
-
-
-
-
-
-
+/* spinor */
+.spinor-area {position:fixed;top:0;left:0;bottom:0;right:0;z-index:999;background-color:rgba(0,0,0,.7)}
+.spinor {position:absolute;top:50%;left:50%;transform:translate(-50% -50%);-webkit-transform:translate(-50% -50%)}
+.spinor-area svg path,
+.spinor-area svg rect{fill:#00cccc}
 
 
 

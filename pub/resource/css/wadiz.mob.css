@@ -94,14 +94,15 @@
 .main-subTitle::after {content:"";position:absolute;bottom:-16px;left:50%;transform:translate(-50%);background-color:#00cccc;width:22px;height:1px;}
 .desktop-select {display:none;}
 .select-box.full {display:block;margin-bottom:15px;}
-.align-box.main-space {margin-top:30px;}
+.align-box.main-space {margin-top:25px;}
 
 .bbs-list .mob-sub-title {display:block;color:#8a8a8a;}
+.bbs-list .bbs-item .bbs-col {padding:12px 0}
 .bbs-list .bbs-item .bbs-col.col-lg {width:100%;padding-left:2px;}
 .bbs-list .col-s,
 .bbs-list .col-sub-title {display:none}
-.bbs-list .bbs-link {font-size:19px;}
-.bbs-list .mob-sub-title {font-size:15px;}
+.bbs-list .bbs-link {font-size:16px;}
+.bbs-list .mob-sub-title {font-size:13px;}
 .bbs-list .mob-sub-title .m-flag {color:#00cccc;}
 
 .wadiz-inner {padding:0 15px;}
@@ -150,21 +151,21 @@
 .welfare-list .welfare-item .welfare-txt {font-size:16px;}
 .welfare-list2 {margin:33px 0 42px;}
 .welfare-list2 .welfare-item2 {width:100%;flex-direction:column}
-.welfare-list2 .welfare-title {width:100%;padding:30px 20px;text-align:center;height:auto;font-size:24px;}
-.welfare-list2 .welfare-data {width:auto;}
-.welfare-list2 .welfare-data .welfare-subtitle {font-size:19px;margin-top:18px;margin-bottom:18px;}
+.welfare-list2 .welfare-title {width:100%;padding:25px 20px;text-align:center;height:auto;font-size:20px;}
+.welfare-list2 .welfare-data {width:100%;}
+.welfare-list2 .welfare-data .welfare-subtitle {font-size:17px;margin-top:18px;margin-bottom:18px;}
 .welfare-list2 .welfare-data .welfare-desc {font-size:15px;}
 .welfare-list2 .welfare-item2:not(:first-child) {margin-top:35px;}
 .inside-section {margin:40px 0;padding:0;}
 .inside-list .inside-item {width:100%;margin-right:0;margin-bottom:15px;}
 .inside-list .inside-box {padding:12px 10px 20px;}
-.inside-list .inside-txt {font-size:20px;}
+.inside-list .inside-txt {font-size:16px;}
 .inside-list .inside-date {margin-top:15px;font-size:14px;	}
 .align-box.v1 {padding-top:0;margin-top:0;border:0;}
 
 /* owl slide */
 #latest-list .inside-box {padding:12px 10px 20px;}
-#latest-list .inside-txt {font-size:20px;}
+#latest-list .inside-txt {font-size:16px;}
 #latest-list .inside-date {margin-top:15px;}
 #latest-list .owl-nav {margin-top:20px;}
 
@@ -219,6 +220,19 @@ input[type="search"].ipt-sch {width:100%;height:40px;border:0;border-radius:30px
 .layer_section .layer_section-container {width:343px}
 .layer_section-container .layer-header {padding:20px;}
 .layer_section-container .btn_layer-close {top:22px;right:20px;background-size:500px auto;}
+
+.detail-area {padding:50px 20px 30px}
+.detail-area .detail-date {top:20px;right:20px;font-size:13px}
+.detail-area .detail-title {font-size:18px;padding-bottom:20px}
+.detail-content {padding-top:20px}
+
+.sub-title2.v1 {margin:40px 0 25px;font-size:18px}
+.radio.space {margin-left:20px}
+.tbl-type {margin-top:40px}
+.tbl-type .col-group .col-data {white-space:nowrap}
+
+input[type='text'], input[type='password'], input[type='tel'] {height:40px}
+
 @media (max-width:360px) {
 	.layer_section .layer_section-container {width:300px}
 }
