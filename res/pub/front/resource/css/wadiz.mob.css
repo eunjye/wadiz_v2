@@ -52,9 +52,11 @@
 #header.opened .main-menu-wrap,
 #header.opened .mob-copyright {display:block}
 
+/*
 #section1 {background-image:url('/res/pub/front/resource/images/visual_01@mob.jpg');}
 #section2 {background-image:url('/res/pub/front/resource/images/visual_02@mob.jpg');}
 #section3 {background-image:url('/res/pub/front/resource/images/visual_03@mob.jpg');}
+*/
 .visual-box .visual-mob-title {font-size:32px;margin-bottom:30px;}
 .visual-box .visual-mob-title .mob-title-ft {display:inline-block;margin-top:10px;font-weight:100;}
 .visual-box .visual-mob-title em {text-decoration:underline}
