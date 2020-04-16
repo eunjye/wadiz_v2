@@ -630,7 +630,8 @@ input[type="search"].ipt-sch {width:100%;padding-right:65px;}
 .editor-section {min-height:400px;margin-bottom:30px;border:1px solid #b5b5b5;}
 .security-group {display:flex;align-items:center}
 .security-group + .security-group {margin-top:8px;}
-.security-group .security-col-01 {width:160px;}
+.security-group .security-col-01 {width:160px;padding-right:10px}
+.security-group .security-col-01 img {width:100%}
 .security-group .security-col-02 {flex:1;}
 .security-group .security-txt {font-size:12px;font-weight:100;color:#878787;line-height:1.4;}
 .security-group input[type="text"] {height:30px;line-height:28px;padding-left:10px;width:150px;}
