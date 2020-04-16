@@ -226,6 +226,7 @@ input[type="search"].ipt-sch {width:100%;height:40px;border:0;border-radius:30px
 .detail-area {padding:50px 20px 30px}
 .detail-area .detail-date {top:20px;right:20px;font-size:13px}
 .detail-area .detail-title {font-size:18px;padding-bottom:20px}
+.detail-area .detail-title .recruit-group {font-size:14px}
 .detail-content {padding-top:20px}
 
 .sub-title2.v1 {margin:40px 0 25px;font-size:18px}
@@ -234,6 +235,8 @@ input[type="search"].ipt-sch {width:100%;height:40px;border:0;border-radius:30px
 .tbl-type .col-group .col-data {white-space:nowrap}
 
 input[type='text'], input[type='password'], input[type='tel'] {height:40px}
+.not-mb {display:none}
+
 
 @media (max-width:360px) {
 	.layer_section .layer_section-container {width:300px}
