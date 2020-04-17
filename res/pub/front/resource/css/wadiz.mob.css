@@ -161,7 +161,7 @@
 .inside-section {margin:40px 0;padding:0;}
 .inside-list .inside-item {width:100%;margin-right:0;margin-bottom:15px;}
 .inside-list .inside-box {padding:12px 10px 20px;}
-.inside-list .inside-txt {font-size:16px;}
+.inside-list .inside-txt {font-size:16px;min-height:10px}
 .inside-list .inside-date {margin-top:15px;font-size:14px;	}
 .align-box.v1 {padding-top:0;margin-top:0;border:0;}
 
