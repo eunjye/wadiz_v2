@@ -5,12 +5,14 @@
  * @ Reset Style *
  * -------------------------------
  */
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 html, body, div, p, span, strong, b, em, iframe, pre, h1, h2, h3, h4, h5, h6,
 img, dl, dt, dd, fieldset, form, legend, label, table, caption, thead, tbody, tfoot, tr, th, td,
 ul, ol, li, a, input, select, textarea, article, aside, canvas, details, embed, figure, figcaption,
-footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;border: 0 none;font-family:'Muli', 'Noto Sans KR';font-weight: 400;}
-body, input, select, textarea {font-family:'Muli', 'Noto Sans KR', Dotum, "돋음", AppleGothic, Sans-serif, Arial;font-size: 14px;font-weight: 400;line-height: 1;color: #333;word-break:break-all;}
-h1, h2, h3, h4, h5, h6, b, strong {font-family:'Muli', 'Noto Sans KR';font-weight: 500;}
+footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;border: 0 none;font-family:'Noto Sans KR', Sans-serif;font-weight: 400;}
+body, input, select, textarea {font-family:'Noto Sans KR', Dotum, "돋음", AppleGothic, Sans-serif, Arial;font-size: 14px;font-weight: 400;line-height: 1;color: #333;word-break:break-all;}
+h1, h2, h3, h4, h5, h6, b, strong {font-family:'Noto Sans KR', Sans-serif;font-weight: 500;}
 html,body {height: 100%;width: 100%;}
 ul, ol, li {list-style: none;}
 em, address, i {font-style: normal;}
@@ -40,7 +42,7 @@ audio,canvas,progress,video {display: inline-block;vertical-align: baseline}
 input[type='text'], input[type='password'], input[type='tel'], input[type='search'] {
 	height:50px;padding:0 10px 0 18px;-webkit-appearance:none;
 	outline:none 0;box-sizing:border-box;line-height:48px;color:#555;vertical-align: middle;
-	font-family:'Muli','Noto Sans KR';font-weight:300;
+	font-family:'Noto Sans KR', Sans-serif;font-weight:300;
 	border:1px solid #dedede;
 }
 input[type="search"] {height:56px;line-height:53px;padding:0 10px 0 30px;background-color:#f0f2f4;border-radius:5px;border:1px solid #dce1e5;}
