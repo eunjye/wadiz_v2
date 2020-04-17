@@ -392,6 +392,7 @@ html.fp-enabled,
 .fb-menu-box.off,
 .next-view.off,
 .icon-scroll.off {opacity:0;visibility:hidden}
+.fb-menu-box.off #fp-menu .fp-menu-item a span {border-color:#fff}
 
 #section1,
 #section2,
