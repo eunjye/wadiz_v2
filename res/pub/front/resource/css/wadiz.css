@@ -391,7 +391,7 @@ html.fp-enabled,
 .next-view::after {position:absolute;left:50%;top:24px;transform:translate(-50%);width:26px;height:14px;background-position-x:-50px}
 .fb-menu-box.off,
 .next-view.off,
-.icon-scroll.off {opacity:0;visibility:hidden;width:1px;height:1px;overflow:hidden;margin:-1px}
+.icon-scroll.off {opacity:0;visibility:hidden}
 
 #section1,
 #section2,
