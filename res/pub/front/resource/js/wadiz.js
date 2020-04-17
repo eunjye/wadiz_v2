@@ -21,7 +21,7 @@ WD.fullPageUi = function() {
 	var fpMenuBox = $('.fb-menu-box');
 	var nextViewEl = $('.next-view');
 
-	$(window).on('mousewheel', function(e){
+	$(window).on('mousewheel touchmove', function(e){
 		if (!fpMenuEl.is('.active')) {
 			fpMenuBox.addClass( 'off' );
 			iconScrollEl.addClass( 'off' );
