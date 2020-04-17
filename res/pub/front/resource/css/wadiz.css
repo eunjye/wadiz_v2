@@ -127,6 +127,7 @@ select option { font-size: 13px;}
 /* Common Component Style */
 [class*="btn-"] { display: inline-block;}
 .btn-type {height:55px;font-size:21px;font-weight:500;color:#fff;padding:0 30px;line-height:52px;background-color:#00cccc;border-radius:10px}
+.btn-type.line {border:2px solid #00cccc;background-color:#fff;color:#00cccc}
 .btn-type ~ .btn-type {margin-left:10px;}
 .btn-move-top {display:none;position: fixed;z-index:250;left: 50%;margin-left:41%;bottom:80px;width: 86px;height: 86px; background-image:url('/res/pub/front/resource/images/sp_wadiz.png');background-repeat:no-repeat;background-size:500px auto;background-position:0 -280px;}
 .btn-search {position:absolute;top:2px;right:15px;width:50px;height:50px;background-position:-240px -280px;}
@@ -682,7 +683,15 @@ body.show-spinner .spinor-area { display: block; }
 .detail-content b {font-weight:500}
 .detail-content u {text-decoration:underline}
 
-
+/* error */
+.error_box .recruit-log {width:180px;height:33px;background-position-y:-220px}
+.error_box {max-width:620px;margin:0 auto;padding:150px 20px 0;text-align:center}
+.error_con {margin-top:30px;border-top:1px solid #00cccc;border-bottom:1px solid #999;padding:100px 0}
+.error_box .big_txt {font-size:40px;letter-spacing:-.1em;color:#333333;text-align:center;line-height:48px}
+.error_con.server .big_txt {margin-top:84px}
+.error_box .small_txt {margin-top:15px;font-size:14px;line-height:24px;text-align:center}
+.error_box .basic_btn_box {margin-top:30px}
+.error_box .basic_btn_box .btn-type {border:2px solid #00cccc}
 
 
 

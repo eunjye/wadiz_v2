@@ -237,12 +237,16 @@ input[type="search"].ipt-sch {width:100%;height:40px;border:0;border-radius:30px
 input[type='text'], input[type='password'], input[type='tel'] {height:40px}
 .not-mb {display:none}
 
+/* error */
+.error_box .recruit-log {width:98px;height:20px;background-position:-100px -110px;}
+.error_box {padding-top:50px}
+.error_con {padding:100px 0}
+.error_box .big_txt {font-size:24px}
+
 
 @media (max-width:360px) {
 	.layer_section .layer_section-container {width:300px}
 }
-
-
 
 
 
