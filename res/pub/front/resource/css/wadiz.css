@@ -549,7 +549,7 @@ html.fp-enabled,
 .inside-list .inside-item:active::after {content:"";position:absolute;left:-1px;right:-1px;bottom:-1px;height:2px;background-color:#00cccc;}
 .inside-list .inside-link {display:block;}
 .inside-list .inside-thumbnail {overflow:hidden;width:100%;border-radius:20px 0 0 0;max-height:229px}
-.inside-list .inside-thumbnail img {width:100%;height:auto;}
+.inside-list .inside-thumbnail img {width:100%;height:auto;min-height:229px}
 .inside-list .inside-box {padding:25px 24px 27px;border:solid #dedede;border-width:0 1px 1px 1px;}
 .inside-list .inside-txt {overflow:hidden; text-overflow:ellipsis;display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;word-wrap:break-word;color:#333;font-size:26px;line-height:1.4;min-height:72px}
 .inside-list .inside-date {display:block;margin-top:35px;color:#8a8a8a;}
@@ -696,6 +696,7 @@ body.show-spinner .spinor-area { display: block; }
 
 /* 2020-04-20 add */
 .content-info-txt {color:#777;margin-bottom:20px;padding-left:8px;text-indent:-8px;line-height:20px}
+.not-pc {display:none}
 
 
 

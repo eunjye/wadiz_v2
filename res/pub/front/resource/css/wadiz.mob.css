@@ -243,6 +243,10 @@ input[type='text'], input[type='password'], input[type='tel'] {height:40px}
 .error_con {padding:100px 0}
 .error_box .big_txt {font-size:24px}
 
+/* 2020-04-21 add */
+.not-pc {display:block}
+.btn-type.not-pc {display:inline-block}
+
 
 @media (max-width:360px) {
 	.layer_section .layer_section-container {width:300px}
