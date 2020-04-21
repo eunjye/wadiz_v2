@@ -483,7 +483,7 @@ html.fp-enabled,
 .sub-visual-section.why2 {height:780px;background-image:url('../../resource/images/sub_visual_02_01.jpg');}
 .sub-visual-section.inside {background-image:url('../../resource/images/sub_visual_03.jpg');}
 .sub-visual-section.recruit {background-image:url('../../resource/images/sub_visual_04.jpg');}
-.section-title {margin-bottom:28px;font-size:45px;font-weight:300;line-height:60px;text-align:center;letter-spacing:-1.5px}
+.section-title {margin-bottom:28px;font-size:44px;font-weight:300;line-height:60px;text-align:center;letter-spacing:-1.5px}
 .section-desc {text-align:center;font-size:18px;font-weight:100;line-height:28px;}
 .point-title {position:relative;display:block;font-size:24px;color:#00cccc;text-align:center}
 .point-title::after {content:"";display:block;position:relative;transform:translate(-50%);left:50%;width:22px;height:1px;margin:32px 0;background-color:#00cccc;text-align:center}
