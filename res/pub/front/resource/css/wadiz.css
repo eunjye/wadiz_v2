@@ -590,7 +590,7 @@ html.fp-enabled,
 .tab-list .tab-item.active::after,
 .tab-list .tab-item:hover:after {content:"";position:absolute;left:-1px;right:-1px;bottom:-1px;height:3px;background-color:#00cccc;}
 .step-section {display:flex;margin:95px 0 130px;}
-.step-section .step-inner {width:50%;}
+.step-section .step-inner {width:100%;}
 .step-section .step-inner + .step-inner {margin-left:35px;}
 .step-list .step-item {position:relative;border:1px solid #dedede;margin-top:10px;}
 .step-list .step-item .step-icon {display:inline-block;width:117px;height:116px;margin-right:25px;background-color:#f6f6f6;background-position:0 -620px;vertical-align:middle;}
