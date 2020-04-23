@@ -592,8 +592,9 @@ html.fp-enabled,
 .step-section {display:flex;margin:95px 0 130px;}
 .step-section .step-inner {width:100%;}
 .step-section .step-inner + .step-inner {margin-left:35px;}
-.step-list .step-item {position:relative;border:1px solid #dedede;margin-top:10px;}
-.step-list .step-item .step-icon {display:inline-block;width:117px;height:116px;margin-right:25px;background-color:#f6f6f6;background-position:0 -620px;vertical-align:middle;}
+.step-list .step-item {position:relative;border:1px solid #dedede;margin-top:10px;width:100%;}
+.step-list .step-item .step-txt-box {display:inline-block;width:calc(100% - 121px);text-align:center}
+.step-list .step-item .step-icon {display:inline-block;width:117px;height:116px;background-color:#f6f6f6;background-position:0 -620px;vertical-align:middle;}
 .step-list .step-item .step-icon.icon-2 {background-position-x:-120px;}
 .step-list .step-item .step-icon.icon-3 {background-position-x:-240px;}
 .step-list .step-item .step-icon.icon-4 {background-position-x:-360px;}
@@ -603,7 +604,7 @@ html.fp-enabled,
 .step-list .step-item .step-txt {font-size:14px;color:#555;}
 
 .guide-list {}
-.guide-list .guide-item {margin-top:10px;font-size:16px;color:#333;line-height:1.2;text-indent:-9px;padding-left:9px;}
+.guide-list .guide-item {margin-top:10px;font-size:16px;color:#333;line-height:1.2;text-indent:-9px;padding-left:9px;text-align:center}
 .guide-list .guide-item .guide-point {margin-top:10px;font-weight:500;color:#00cccc;}
 
 .search-section {margin:70px 0 50px;text-align:center;}
