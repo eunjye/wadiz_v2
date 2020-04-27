@@ -423,16 +423,20 @@ html.fp-enabled,
 .guide-privacy .gp-item .gp-link {font-size:14px;color:#6b6d72;}
 .guide-privacy .gp-item:not(:last-child) {margin-right:33px;}
 .guide-privacy .gp-item:not(:last-child)::after {content:"";position:absolute;top:3px;right:-19px;width:1px;height:10px;background-color:#393939;}
-.sns-list {display:inline-block;margin:24px 0 20px;}
+.sns-list {margin:24px 0 20px;text-align:center}
 .sns-list .sns-item {display:inline-block}
 .sns-list .sns-item .sns-link {display:block;width:34px;height:34px;background-position:0 -80px;}
 .sns-list .sns-item.face {margin-right:9px;}
 .sns-list .sns-item.insta {margin-right:14px;}
 .sns-list .sns-item.insta .sns-link {background-position-x:-40px;}
 .sns-list .sns-item.ut .sns-link {background-position-x:-80px;}
-.address {padding:0 15px;font-size:10px;margin-bottom:9px;line-height:20px;}
-.address {font-size:14px;margin-bottom:18px;font-weight:100;color:#41454d;line-height:22px;}
+/* S : 2020-04-27 modify */
+.address {padding:0 15px;font-size:14px;margin-bottom:18px;line-height:22px;display:inline-flex;align-items:center;font-weight:100;color:#41454d;}
 .address .ceo {display:inline-block;margin-right:15px;}
+.address .footer-logos {margin-left:15px;font-size:0}
+.address .footer-logos .logos-item {display:inline-block}
+.address .footer-logos .logos-item ~ .logos-item {margin-left:10px}
+/* E : 2020-04-27 modify */
 .copyright {font-size:12px;color:#41454d;}
 
 .ann-section {display:flex;align-items:center;justify-content:center;height:100%;padding:0 10px;}
