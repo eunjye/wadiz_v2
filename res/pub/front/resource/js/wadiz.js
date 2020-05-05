@@ -91,11 +91,11 @@ WD.ctrlMenu = function() {
 		$('#desktopMenu .main-menu-wrap').on('mouseenter mouseleave', function (e) {
 			if (e.type === 'mouseenter') {
 				headerEl.css({
-					height: 218
+					height: 176
 				});
 			} else if (e.type === 'mouseleave') {
 				headerEl.css({
-					height: 132
+					height: 90
 				});
 			}
 		});
