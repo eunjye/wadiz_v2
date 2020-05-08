@@ -435,6 +435,7 @@ html.fp-enabled,
 .address .ceo {display:inline-block;margin-right:15px;}
 .address .footer-logos {margin-left:15px;font-size:0}
 .address .footer-logos .logos-item {display:inline-block}
+.address .footer-logos .logos-item img {vertical-align:top;height:50px;width:auto}
 .address .footer-logos .logos-item ~ .logos-item {margin-left:10px}
 /* E : 2020-04-27 modify */
 .copyright {font-size:12px;color:#41454d;}
