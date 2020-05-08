@@ -68,7 +68,7 @@
 .btn-visual-more::before {content:"";position:absolute;left:50%;top:-140px;transform:translate(-50%);width:1px;height:85px;background-color:rgba(255, 255, 255, .2);}
 .next-view {opacity:1;visibility:visible}
 #footer {padding:30px 0 55px;}
-#footer .footer-logo {width:98px;height:19px;margin-bottom:15px;background-position:-45px -20px;}
+#footer .footer-logo {width:72px;height:19px;margin-bottom:15px;background-position:-45px -20px;}
 .guide-privacy .gp-item .gp-link {font-size:10px;}
 .sns-list {margin:12px 0 20px;}
 .sns-list .sns-item .sns-link {width:23px;height:23px;;background-position:0 -60px;}

@@ -418,7 +418,7 @@ html.fp-enabled,
 .guide-arrow {position:absolute;font-size:16px;color:#fff;bottom:70px;text-align:center;left:0;right:0}
 .guide-arrow::after {position:absolute;left:50%;top:38px;transform:translate(-50%);width:26px;height:14px;background-position-x:-50px}
 #footer {background-color:#1d2129;padding:50px 0 60px;text-align:center;}
-#footer .footer-logo {display:inline-block;width:149px;height:28px;margin-bottom:30px;background-position-x:-90px;}
+#footer .footer-logo {display:inline-block;width:102px;height:28px;margin-bottom:30px;background-position-x:-90px;}
 .guide-privacy .gp-item {position:relative;display:inline-block;font-size:0;}
 .guide-privacy .gp-item .gp-link {font-size:14px;color:#6b6d72;}
 .guide-privacy .gp-item:not(:last-child) {margin-right:33px;}
