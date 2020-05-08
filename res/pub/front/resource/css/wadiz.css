@@ -431,9 +431,9 @@ html.fp-enabled,
 .sns-list .sns-item.insta .sns-link {background-position-x:-40px;}
 .sns-list .sns-item.ut .sns-link {background-position-x:-80px;}
 /* S : 2020-04-27 modify */
-.address {padding:0 15px;font-size:14px;margin-bottom:18px;line-height:22px;display:inline-flex;align-items:center;font-weight:100;color:#41454d;}
+.address {padding:0 15px;font-size:14px;margin-bottom:18px;line-height:22px;display:inline-flex;flex-direction: column;align-items:center;font-weight:100;color:#41454d;}
 .address .ceo {display:inline-block;margin-right:15px;}
-.address .footer-logos {margin-left:15px;font-size:0}
+.address .footer-logos {margin:10px 0 0 0;font-size:0}
 .address .footer-logos .logos-item {display:inline-block}
 .address .footer-logos .logos-item img {vertical-align:top;height:50px;width:auto}
 .address .footer-logos .logos-item ~ .logos-item {margin-left:10px}
