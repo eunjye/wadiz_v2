@@ -167,6 +167,7 @@
 .align-box.v1 {padding-top:0;margin-top:0;border:0;}
 
 /* owl slide */
+#latest-list .inside-thumbnail img {min-height:106px}
 #latest-list .inside-box {padding:12px 10px 20px;}
 #latest-list .inside-txt {font-size:16px;}
 #latest-list .inside-date {margin-top:15px;}
@@ -252,7 +253,6 @@ input[type='text'], input[type='password'], input[type='tel'] {height:40px}
 /* 2020-04-27 add */
 .address {display:flex;flex-direction:column;font-size:10px;line-height:20px}
 .address .footer-logos {margin:10px 0 0 0}
-
 
 @media (max-width:360px) {
 	.layer_section .layer_section-container {width:300px}

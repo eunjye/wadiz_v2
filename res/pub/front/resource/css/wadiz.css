@@ -422,6 +422,7 @@ html.fp-enabled,
 .guide-privacy .gp-item {position:relative;display:inline-block;font-size:0;}
 .guide-privacy .gp-item .gp-link {font-size:14px;color:#6b6d72;}
 .guide-privacy .gp-item:not(:last-child) {margin-right:33px;}
+.guide-privacy .gp-item:first-child .gp-link {color:#00cccc}
 .guide-privacy .gp-item:not(:last-child)::after {content:"";position:absolute;top:3px;right:-19px;width:1px;height:10px;background-color:#393939;}
 .sns-list {margin:24px 0 20px;text-align:center}
 .sns-list .sns-item {display:inline-block}
@@ -567,12 +568,13 @@ html.fp-enabled,
 .detail-area .detail-date .recruit-type {display:inline-block;padding:5px 10px;background-color:#00cccc;color:#fff}
 .detail-content {padding:40px 0 0;line-height:1.4;}
 .detail-content img {max-width:100% !important; height:auto;}
+.detail-content * {word-break:break-all;max-width:100%}
 .sub-title2 {margin-top:50px;margin-bottom:30px;font-size:24px;color:#00cccc;}
 .sub-title2.v1 {margin:90px 0 25px;}
 
 /* owl slide */
-#latest-list .inside-thumbnail {overflow:hidden;border-radius:20px 0 0 0;}
-#latest-list .inside-thumbnail img {width:100%;height:auto;}
+#latest-list .inside-thumbnail {overflow:hidden;border-radius:20px 0 0 0;border:1px solid #dedede;border-bottom:none}
+#latest-list .inside-thumbnail img {width:100%;height:auto;min-height:229px}
 #latest-list .owl-link {display:block/*;margin-right:35px*/}
 #latest-list .inside-box {padding:25px 24px 27px;border:solid #dedede;border-width:0 1px 1px 1px;}
 #latest-list .inside-txt {overflow:hidden; text-overflow:ellipsis;display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;word-wrap:break-word;color:#333;font-size:26px;line-height:1.4	;}
