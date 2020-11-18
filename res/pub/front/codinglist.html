@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>프론트 ::: 코딩 리스트</title>
+	<link type="text/css" rel="stylesheet" href="/res/pub/froresource/css/common.css"/>
+	<link type="text/css" rel="stylesheet" href="/res/pub/front/codinglist.css"/>
+	<script src="/res/pub/front/resource/js/libs/jquery-1.12.4.min.js"></script>
+	<script src="/res/pub/front/codinglist.js"></script>
+</head>
+<body id="guide">
+
+<header>
+	<div id="head">
+		<h1>IA (Imformation Architeture)</h1>
+		<h2 class="ribbon">
+			Wadiz(와디즈)
+			<i></i>
+			<i></i>
+			<i></i>
+			<i></i>
+		</h2>
+	</div>
+</header>
+
+<section id="contents">
+	<div class="state-wrap">
+		<div class="state-group">
+			<strong>진행 상태</strong>&nbsp;&nbsp;:&nbsp;
+			<span class="state"><span class="undecided">미</span></span> 미정(undecided),
+			<span class="state"><span class="delete">삭</span></span> 삭제(delete),
+			<span class="state"><span class="edit">중</span></span> 진행 및 수정 중(edit),
+			<span class="state"><span class="complete">완</span></span> 완료(complete)
+		</div>
+		<p class="total">
+			<span class="per">종합 진척률 : <span class="result"></span></span>
+		</p>
+	</div>
+	
+	<table border="0" class="working-list">
+		<colgroup>
+			<col style="width:5%;"/>
+			<col>
+			<col style="width:20%;"/>
+			<col style="width:10%;"/>
+			<col style="width:12%;"/>
+			<col style="width:20%;"/>
+			<col style="width:6%;"/>
+		</colgroup>
+		<thead>
+			<tr>
+				<th>No</th>
+				<th>Depth</th>
+				<th>File Directory (URL)</th>
+				<th>
+					<select name="select">
+						<option value="">담당자 전체</option>
+					</select>
+				</th>
+				<th>
+					<select name="select">
+						<option value="">작업일 선택</option>
+					</select>
+				</th>
+				<th>검수 및 비고</th>
+				<th>상태</th>
+			</tr>
+		</thead>
+		<tbody>
+
+			<tr class="linetitle">
+				<td>
+					<div class="sub-tit">메인</div>
+				</td>
+			</tr>
+			<tr>
+				<td>메인 와디즈</td>
+				<td><a href="index.html">index.html</a></td>
+				<td></td>
+				<td>2020-04-02</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+
+			<tr class="linetitle">
+				<td>
+					<div class="sub-tit">소개</div>
+				</td>
+			</tr>
+			<tr>
+				<td>wadiz > about wadiz </td>
+				<td><a href="/res/pub/front/resource/html/about.html">about.html</a></td>
+				<td></td>
+				<td>2020-04-02</td>
+				<td>
+					개인정보취급방침, 이메일무단수집거부 <br>
+					레이어팝업 포함(공통)
+				</td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>wadiz > why wadiz</td>
+				<td><a href="/res/pub/front/resource/html/why.html">why.html</a></td>
+				<td></td>
+				<td>2020-04-02</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+
+			<tr class="linetitle">
+				<td>
+					<div class="sub-tit">인사이드</div>
+				</td>
+			</tr>
+			<tr>
+				<td>wadiz > 와디즈인 인터뷰 > 목록</td>
+				<td><a href="/res/pub/front/resource/html/interview_list.html">interview_list.html</a></td>
+				<td></td>
+				<td>2020-04-02</td>
+				<td>인터뷰, 라이프, 미디어 공통 템플릿</td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>wadiz > 와디즈인 인터뷰 > 상세</td>
+				<td><a href="/res/pub/front/resource/html/interview_detail.html">interview_detail.html</a></td>
+				<td></td>
+				<td>2020-04-02</td>
+				<td>인터뷰, 라이프, 미디어 공통 템플릿</td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+
+			<tr class="linetitle">
+				<td>
+					<div class="sub-tit">지원하기</div>
+				</td>
+			</tr>
+			<tr>
+				<td>wadiz > 지원하기 > 채용절차</td>
+				<td><a href="/res/pub/front/resource/html/recruit_step.html">recruit_step.html</a></td>
+				<td></td>
+				<td>2020-04-02</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>wadiz > 지원하기 > 채용공고</td>
+				<td><a href="/res/pub/front/resource/html/recruit_notification_back.html">recruit_notification_back.html</a></td>
+				<td></td>
+				<td>2020-04-02</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>wadiz > 지원하기 > 채용공고 > 상세</td>
+				<td><a href="/res/pub/front/resource/html/recruit_detail_back.html">recruit_detail_back.html</a></td>
+				<td></td>
+				<td>2020-04-16</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>wadiz > 지원하기 > 채용공고</td>
+				<td><a href="/res/pub/front/resource/html/recruit_notification.html">recruit_notification.html</a></td>
+				<td></td>
+				<td>2020-11-19</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>wadiz > 지원하기 > 채용공고 > 상세</td>
+				<td><a href="/res/pub/front/resource/html/recruit_detail.html">recruit_detail.html</a></td>
+				<td></td>
+				<td>2020-11-19</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>wadiz > 지원하기 > 문의하기</td>
+				<td><a href="/res/pub/front/resource/html/recruit_inquiry.html">recruit_inquiry.html</a></td>
+				<td></td>
+				<td>2020-04-02</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+
+			<tr class="linetitle">
+				<td>
+					<div class="sub-tit">기타</div>
+				</td>
+			</tr>
+			<tr>
+				<td>스피너</td>
+				<td><a href="/res/pub/front/resource/html/spinor.html">spinor.html</a></td>
+				<td></td>
+				<td>2020-04-09</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>이메일</td>
+				<td><a href="/res/pub/front/resource/html/email/email_sample.html">email_sample.html</a></td>
+				<td></td>
+				<td>2020-04-16</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+			<tr>
+				<td>error</td>
+				<td><a href="/res/pub/front/resource/html/error.html">error.html</a></td>
+				<td></td>
+				<td>2020-04-17</td>
+				<td></td>
+				<td><span class="state"><span class="complete"></span></span></td>
+			</tr>
+
+
+
+			<!--<tr class="del">-->
+			<!--
+			<tr class="linetitle">
+				<td>
+					<div class="sub-tit">관리자</div>
+				</td>
+			</tr>
+			<tr>
+				<td>가이드</td>
+				<td><a href="#;"></a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><span class="state"><span class="undecided"></span></span></td>
+			</tr>
+			-->
+
+
+
+		</tbody>
+	
+	</table>
+</section>
+<hr />
+
+
+</body>
+</html>
