@@ -708,11 +708,74 @@ body.show-spinner .spinor-area { display: block; }
 .content-info-txt {color:#777;margin-bottom:20px;padding-left:8px;text-indent:-8px;line-height:20px}
 .not-pc {display:none}
 
+/* [20201118] version2 */
+.v2 .sp_wadiz,
+.v2 .sp_wadiz-a::after,
+.v2 .sp_wadiz-b::before {background-image:url('../../resource/images/sp_wadiz2.png'); background-repeat:no-repeat;background-size:500px auto;}
+/* header */
+#header.v2 {position:fixed;top:0;width:100%;z-index:200;transition:all .4s;min-height:70px;overflow:hidden;}
+#header.v2::before {content:"";position:absolute;left:0;top:69px;width:100%;height:1px;background-color:#fff;}
+#header.v2 .recruit-log {width:162px;height:33px;margin-top:22px;background-position-y:-220px;}
+#header.v2 .header-section { max-width:960px }
 
+.v2 #desktopMenu .main-menu-list .mm-1depth .link-1depth {position:relative;display:block;padding:26px 0 28px;font-size:16px;font-weight:500;color:#1d2129;}
+.v2 #desktopMenu .main-menu-list .mm-1depth.is-selected .link-1depth,
+.v2 #desktopMenu .main-menu-list .mm-1depth:hover .link-1depth { color:#C6C6C6 !important; }
+.v2 #desktopMenu .mm-sub-box {position:absolute;top:70px;height:86px;}
+.v2 #desktopMenu .main-menu-list .mm-1depth .link-1depth::before { display:none; }
+.v2 #desktopMenu .mm-sub-list .mm-2depth.active .link-2depth::after {width:100%;left:0;background-color:#00cccc;} 
 
+.v2 .desktop-select .fake-menu {padding:0 30px;height:46px;line-height:42px;font-size:16px;}
 
+/* footer */
+#footer.v2 {width:100%; max-width:1000px; margin:0 auto; padding:50px 20px 60px;text-align:left;background:none; font-size:12px; }
+#footer.v2 .footer-logo {display:inline-block;width:86px;height:21px;margin-bottom:25px;background-position-x:-90px;}
+.v2 .address { display:block; padding:0; font-size:12px; font-weight:500; color:#616161; }
+.v2 .address p, .v2 .address span { font:inherit; line-height:1.6em; letter-spacing:-0.025em; }
+.v2 .address p span { display:block; }
+.v2 .address .txt-address { margin-top:5px; }
+.v2 .address .name { margin-top:30px; }
+.v2 .address .footer-logos {margin:10px 0 0 0;font-size:0}
+.v2 .sns-list { margin:4px 0 0; text-align:left; }
 
+/* content */
+/* layout */
+.v2 .wadiz-inner {max-width:1000px;}
+.v2 .recruit-section {padding:135px 20px;}
 
+/* visual */
+.v2 .sub-visual-section.recruit { margin-top:70px; height:517px; background-image:url('../../resource/images/sub_visual_04_new.jpg'); }
 
+/* intro */
+.intro-area { display:flex; flex-wrap:nowrap; justify-content:space-between; width:100%; }
+.intro-area .intro-title { flex:0 2 42%; word-break:keep-all; }
+.intro-area .intro-cont { flex:1 1 58%; padding:57px 0 0 30px; }
+.intro-title .tag { font-size:18px; }
+.intro-title .title { margin-top:30px; font-size:32px; font-weight:700; line-height:1.45em; color:#1E2129; }
 
+/* bbs */
+.v2 .bbs-list .bbs-item .bbs-col.last .date{padding-top:5px;}
+.v2 .bbs-list .bbs-link {font-size:18px; padding-top:5px;}
+.v2 .bbs-list .col-flag {height:28px;line-height:26px;font-size:14px;}
 
+/* bullets */
+.bul-dot { }
+.bul-dot > li:first-child { margin-top:0; }
+.bul-dot > li:before { display:inline-block; width:3px; height:3px; border-radius:50%; background:#414141; margin:-2px 5px 0 -8px; vertical-align:middle; content:""; }
+.bul-dot > li { margin-top:8px; padding-left:9px; line-height:1.4em; font-size:16px; font-weight:700; letter-spacing:-0.025em; word-break:keep-all; }
+
+.bul-star { margin-top:35px; line-height:1.4em; }
+.bul-star:before { display:inline-block; margin:2px 3px 0 0; vertical-align:middle; content:"*"; }
+
+/* process list */
+.process-area { width:100%; margin:120px 0 160px; text-align:center; }
+.process-list { z-index:0; position:relative; width:100%; max-width:800px; margin:0 auto; text-align:center; white-space:nowrap; display:flex; flex-wrap:nowrap; justify-content:space-between; align-items:center; }
+.process-list:before { z-index:-1; position:absolute; top:50%; left:2%; right:2%; display:block; height:1px; margin:0 auto; background:#1E2129; content:""; }
+
+.process-list > li { flex:0 1 auto; position:relative; width:15%; height:0; padding-top:15%; border-radius:50%; background:#F1F2F4; font-size:18px; font-weight:700; line-height:1.2em; vertical-align:middle; word-break:keep-all; margin:0 1.5%; white-space:normal }
+.process-list > li.primary { width:20%; padding-top:20%; background:#00CCCC; color:#fff;}
+.process-list > li.secondary { width:20%; padding-top:20%; background:#1E2129; color:#fff;}
+.process-list > li span { position:absolute; top:50%; left:0; width:100%; padding:0 10px; transform:translateY(-50%); font:inherit; }
+
+/* go top */
+.btn-move-top.v2 { background-image:url('../../resource/images/sp_wadiz2.png'); 

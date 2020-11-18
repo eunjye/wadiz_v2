@@ -87,20 +87,21 @@ WD.mainUi = function() {
 
 WD.ctrlMenu = function() {
 	var headerEl = $('#header');
+	var headerH = headerEl.hasClass('v2') ? {max: 156, min: 70} : {max: 176, min: 90};
 	function desktopMenu() {
 		$('#desktopMenu .main-menu-wrap').on('mouseenter mouseleave', function (e) {
 			if (e.type === 'mouseenter') {
 				headerEl.css({
-					height: 176
+					height: headerH.max
 				});
 			} else if (e.type === 'mouseleave') {
 				headerEl.css({
-					height: 90
+					height: headerH.min
 				});
 			}
 		});
 	}
-	desktopMenu();
+	!headerEl.hasClass('v2') && desktopMenu();
 
 	function mobileMenu() {
 		$(".btn-hamburger").on('click', function(e){
@@ -115,22 +116,24 @@ WD.ctrlMenu = function() {
 
 		});
 		var mobileMenu = $( '#mobileMenu' );
-		mobileMenu.on('click', '.link-1depth', function (e) {
-			e.preventDefault();
-			var parentEl =  $( this ).parent();
-			var selectStr = 'is-selected';
-			var mmSubBoxStr = '.mm-sub-box';
-			mobileMenu.find( mmSubBoxStr ).slideUp();
+		if (!$('#header').hasClass('v2')) { 
+			mobileMenu.on('click', '.link-1depth', function (e) {
+				e.preventDefault();
+				var parentEl =  $( this ).parent();
+				var selectStr = 'is-selected';
+				var mmSubBoxStr = '.mm-sub-box';
+				mobileMenu.find( mmSubBoxStr ).slideUp();
 
-			if ( !$( this ).parent().is( '.is-selected' )) {
-				parentEl.addClass(selectStr).find( mmSubBoxStr ).slideDown();
-				parentEl.siblings().removeClass(selectStr);
-			} else {
-				parentEl.addClass(selectStr).find( mmSubBoxStr ).slideUp();
-				parentEl.removeClass(selectStr);
-			}
+				if ( !$( this ).parent().is( '.is-selected' )) {
+					parentEl.addClass(selectStr).find( mmSubBoxStr ).slideDown();
+					parentEl.siblings().removeClass(selectStr);
+				} else {
+					parentEl.addClass(selectStr).find( mmSubBoxStr ).slideUp();
+					parentEl.removeClass(selectStr);
+				}
 
-		});
+			});
+		}
 	}
 	mobileMenu();
 };
@@ -143,7 +146,7 @@ WD.ctrlBg = function () {
 		$mContainer = $('.m-container');
 
 	if (!$('.main').length) {
-
+		if (!!$header.hasClass('v2')) { return false; }
 		$window.on('scroll', function () {
 			var nowTop = $window.scrollTop();
 
