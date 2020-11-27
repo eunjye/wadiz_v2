@@ -7,8 +7,7 @@
 	<p>채용에 관해 궁금한 점이 있으시다면 아래로 문의해주세요!</p>
 	<address class="address">
 		<p class="txt-address">
-			<span>Tel. 031 - 778 - 8054</span>
-			<span>Email. recruit@wadiz.kr</span>
+			<span>Email. team.recruit.@wadiz.kr</span>
 			<span class="name">와디즈플랫폼 (주)</span>
 			<span>사업자등록번호 220-88-37661</span>
 			<span>대표이사 최동철</span>
