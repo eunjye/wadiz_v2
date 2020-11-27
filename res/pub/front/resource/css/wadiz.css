@@ -6,13 +6,15 @@
  * -------------------------------
  */
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
 
 html, body, div, p, span, strong, b, em, iframe, pre, h1, h2, h3, h4, h5, h6,
 img, dl, dt, dd, fieldset, form, legend, label, table, caption, thead, tbody, tfoot, tr, th, td,
 ul, ol, li, a, input, select, textarea, article, aside, canvas, details, embed, figure, figcaption,
-footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;border: 0 none;font-family:'Noto Sans KR','Sans-serif';font-weight: 400;}
-body, input, select, textarea {font-family: 'Noto Sans KR', Dotum, "돋음", AppleGothic, Sans-serif, Arial;font-size: 14px;font-weight: 400;line-height: 1;color: #333;word-break:break-all;}
-h1, h2, h3, h4, h5, h6, b, strong {font-family:'Noto Sans KR', 'Sans-serif';font-weight: 500;}
+footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;border: 0 none;font-family:'Roboto', 'Noto Sans KR', 'Sans-serif';font-weight: 400;}
+body, input, select, textarea {font-family:'Roboto', 'Noto Sans KR', Dotum, "돋음", AppleGothic, Sans-serif, Arial;font-size: 14px;font-weight: 400;line-height: 1;color: #333;word-break:break-all;}
+h1, h2, h3, h4, h5, h6, b, strong {font-family:'Roboto', 'Noto Sans KR', 'Sans-serif';font-weight: 400;}
 html,body {height: 100%;width: 100%;}
 ul, ol, li {list-style: none;}
 em, address, i {font-style: normal;}
@@ -42,7 +44,7 @@ audio,canvas,progress,video {display: inline-block;vertical-align: baseline}
 input[type='text'], input[type='password'], input[type='tel'], input[type='search'] {
 	height:50px;padding:0 10px 0 18px;-webkit-appearance:none;
 	outline:none 0;box-sizing:border-box;line-height:48px;color:#555;vertical-align: middle;
-	font-family:'Noto Sans KR','Sans-serif';font-weight:300;
+	font-family:'Roboto', 'Noto Sans KR', 'Sans-serif';font-weight:300;
 	border:1px solid #dedede;
 }
 input[type="search"] {height:56px;line-height:53px;padding:0 10px 0 30px;background-color:#f0f2f4;border-radius:5px;border:1px solid #dce1e5;}
@@ -134,6 +136,7 @@ select option { font-size: 13px;}
 .btn-move-top {display:none;position: fixed;z-index:250;left: 50%;margin-left:41%;bottom:80px;width: 86px;height: 86px; background-image:url('../../resource/images/sp_wadiz.png');background-repeat:no-repeat;background-size:500px auto;background-position:0 -280px;}
 .btn-search {position:absolute;top:2px;right:15px;width:50px;height:50px;background-position:-240px -280px;}
 .btn-type2 {color:#fff;font-size:12px;height:30px;line-height:29px;padding:0 12px;background-color:#00cccc;vertical-align:middle}
+.btn-type.dark { min-width:165px; background-color:#000; border-radius:0; line-height:55px; }
 
 
 /* select */
@@ -248,7 +251,7 @@ html.fp-enabled,
 	top: -2px;
 	color: #fff;
 	font-size: 14px;
-	font-family: arial, helvetica, sans-serif;
+	font-family:'Roboto', arial, helvetica, sans-serif;
 	white-space: nowrap;
 	max-width: 220px;
 	overflow: hidden;
@@ -489,8 +492,8 @@ html.fp-enabled,
 .sub-visual-section.why2 {height:780px;background-image:url('../../resource/images/sub_visual_02_01.jpg');}
 .sub-visual-section.inside {background-image:url('../../resource/images/sub_visual_03.jpg');}
 .sub-visual-section.recruit {background-image:url('../../resource/images/sub_visual_04.jpg');}
-.section-title {margin-bottom:28px;font-size:44px;font-weight:300;line-height:60px;text-align:center;letter-spacing:-1.5px}
-.section-desc {text-align:center;font-size:18px;font-weight:100;line-height:28px;}
+.section-title {margin-bottom:28px;font-size:44px;font-weight:300;line-height:60px;text-align:left;letter-spacing:-1.5px}
+.section-desc {text-align:left;font-size:17px;font-weight:100;line-height:28px;color:#010101;}
 .point-title {position:relative;display:block;font-size:24px;color:#00cccc;text-align:center}
 .point-title::after {content:"";display:block;position:relative;transform:translate(-50%);left:50%;width:22px;height:1px;margin:32px 0;background-color:#00cccc;text-align:center}
 .line-v1 {display:none}
@@ -499,7 +502,7 @@ html.fp-enabled,
 .goal-box:last-child {margin-left:24px;}
 .sub-title {font-size:45px;font-weight:300;color:#fff;line-height:62px;margin-bottom:52px;letter-spacing:-1px;text-align:center}
 .sub-title.v1 {color:#010101;}
-.sub-desc {font-size:18px;line-height:28px;font-weight:400;color:#fff;text-align:center	}
+.sub-desc {font-size:18px;line-height:28px;font-weight:300;color:#fff;text-align:center	}
 .sub-desc.v1 {color:#555;}
 .principle-list {display:flex;justify-content:center;flex-wrap:wrap;}
 .principle-list .principle-item {position:relative;padding:0 40px;text-align:center}
@@ -708,6 +711,27 @@ body.show-spinner .spinor-area { display: block; }
 .content-info-txt {color:#777;margin-bottom:20px;padding-left:8px;text-indent:-8px;line-height:20px}
 .not-pc {display:none}
 
+
+
+
+
+
+
+/* 2020-09-08 add */
+.fstyle_kopub{font-family: 'KoPub Dotum'!important;}
+.fstyle_nabarun{font-family: 'NanumBarunGothic'!important;}
+.fstyle_nanum{font-family: 'Nanum Gothic'!important;}
+
+
+
+/* 2020-11-11 add */
+.faqbx{border-top:1px solid #222; border-bottom:1px solid #ddd; position:relative;}
+.faqbx .quesbx{font-size:20px; font-weight:500; line-height:1.3; padding:10px 10px 10px 35px;  position:relative;}
+.faqbx .quesbx .blittx{font-size:20px; color:#00cccc; font-weight:500; position:absolute; top:8px; left:10px;}
+.faqbx .ansbx{font-size:16px; line-height:24px; font-weight:300; background:#f2f2f2;  position:relative; padding:10px 10px 10px 35px; }
+.faqbx .ansbx .blittx{color:#999; font-weight:500; position:absolute; top:8px; left:10px; font-size:22px;}
+
+
 /* [20201118] version2 */
 .v2 .sp_wadiz,
 .v2 .sp_wadiz-a::after,
@@ -715,7 +739,7 @@ body.show-spinner .spinor-area { display: block; }
 /* header */
 #header.v2 {position:fixed;top:0;width:100%;z-index:200;transition:all .4s;min-height:70px;overflow:hidden;}
 #header.v2::before {content:"";position:absolute;left:0;top:69px;width:100%;height:1px;background-color:#fff;}
-#header.v2 .recruit-log {width:162px;height:33px;margin-top:22px;background-position-y:-220px;}
+#header.v2 .recruit-log {width:162px;height:33px;margin-top:22px;background-position-y:-110px; background-size:250px auto; }
 #header.v2 .header-section { max-width:960px }
 
 .v2 #desktopMenu .main-menu-list .mm-1depth .link-1depth {position:relative;display:block;padding:26px 0 28px;font-size:16px;font-weight:500;color:#1d2129;}
@@ -729,7 +753,11 @@ body.show-spinner .spinor-area { display: block; }
 
 /* footer */
 #footer.v2 {width:100%; max-width:1000px; margin:0 auto; padding:50px 20px 60px;text-align:left;background:none; font-size:12px; }
-#footer.v2 .footer-logo {display:inline-block;width:86px;height:21px;margin-bottom:25px;background-position-x:-90px;}
+#footer.v2 .footer-logo {width:80px;margin-bottom:25px;background:none; }
+.v2 .sns-list .sns-item .sns-link {display:block;width:25px;height:25px;background-position-y:-87px;}
+.v2 .sns-list .sns-item.ut { margin-right:10px; }
+.v2 .sns-list .sns-item.face {margin-right:0;}
+.v2 .sns-list .sns-item.insta {margin-right:0;}
 .v2 .address { display:block; padding:0; font-size:12px; font-weight:500; color:#616161; }
 .v2 .address p, .v2 .address span { font:inherit; line-height:1.6em; letter-spacing:-0.025em; }
 .v2 .address p span { display:block; }
@@ -764,8 +792,8 @@ body.show-spinner .spinor-area { display: block; }
 .bul-dot > li:before { display:inline-block; width:3px; height:3px; border-radius:50%; background:#414141; margin:-2px 5px 0 -8px; vertical-align:middle; content:""; }
 .bul-dot > li { margin-top:8px; padding-left:9px; line-height:1.4em; font-size:16px; font-weight:700; letter-spacing:-0.025em; word-break:keep-all; }
 
-.bul-star { margin-top:35px; line-height:1.4em; }
-.bul-star:before { display:inline-block; margin:2px 3px 0 0; vertical-align:middle; content:"*"; }
+.bul-star { margin-top:35px; line-height:1.4em; padding-left:10px; }
+.bul-star:before { display:inline-block; margin:2px 3px 0 -10px; vertical-align:middle; content:"*"; }
 
 /* process list */
 .process-area { width:100%; margin:120px 0 160px; text-align:center; }
@@ -778,4 +806,4 @@ body.show-spinner .spinor-area { display: block; }
 .process-list > li span { position:absolute; top:50%; left:0; width:100%; padding:0 10px; transform:translateY(-50%); font:inherit; }
 
 /* go top */
-.btn-move-top.v2 { background-image:url('../../resource/images/sp_wadiz2.png'); 
+.btn-move-top.v2 { width:30px; height:30px; background-image:url('../../resource/images/sp_wadiz2.png'); background-position:0 -287px; margin-left: 44%; bottom: 30px; }

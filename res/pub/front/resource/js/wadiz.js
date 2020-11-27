@@ -109,9 +109,26 @@ WD.ctrlMenu = function() {
 			if ( !$(this).is('.open')) {
 				$(this).addClass('open');
 				headerEl.addClass( 'opened' );
+				if (headerEl.hasClass('v2')) {
+					headerEl.find('#mobileMenu').animate({'opacity': 1}, 400);
+					headerEl.find('.main-menu-wrap').css('right','-80%').animate({
+						'right': '0',
+						'opacity': '1'
+					}, 400)
+				}
 			} else {
 				$(this).removeClass('open');
-				headerEl.removeClass( 'opened' );
+				if (headerEl.hasClass('v2')) {
+					headerEl.find('#mobileMenu').animate({'opacity': 0}, 400);
+					headerEl.find('.main-menu-wrap').css('right','0').animate({
+						'right': '-80%',
+						'opacity': '0'
+					}, 400, function(){
+						headerEl.removeClass( 'opened' );
+					})
+				} else {
+					headerEl.removeClass( 'opened' );
+				}
 			}
 
 		});
